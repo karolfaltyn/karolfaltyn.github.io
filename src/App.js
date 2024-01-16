@@ -1,9 +1,11 @@
-import Home from './pages/Home.jsx'
+import { Hero } from "./components/Hero";
+import { Footer } from "./parts/Footer";
 
-const App = () => {
-  <>
-    <Home />
-  </>
+export const App = () => {
+  return (
+    <>
+      <Hero />
+      <Footer />
+    </>
+  );
 }
-
-export default App;
