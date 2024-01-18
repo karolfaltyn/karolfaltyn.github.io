@@ -23,7 +23,7 @@ export const Hero = () => {
         <div className="container">
           <div className="Hero__content">
             <div className="Hero__main">
-              <div className="Hero__main-text">
+              <div className="Hero__text">
                 <h1>Front-End Developer</h1>
                 <p>
                   Hi, I'm Karol Faltyn. A passionate Front-end React Developer
@@ -47,13 +47,13 @@ export const Hero = () => {
                     <IconBrandGithub width={32} height={32} />
                   </a>
                 </span>
-                <div className="Hero__main-img"></div>
+                <div className="Hero__img"></div>
               </div>
             </div>
 
             <div className="Hero__skills">
               <p>Tech Stack</p>
-              <div className="Hero__skills-logos">
+              <div className="Hero__logos">
                 <ul>
                   {skillsIcons.map((icon) => (
                     <li key={icon.id}>
