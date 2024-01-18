@@ -1,4 +1,5 @@
 import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
+import "../assets/style/hero.css";
 
 export const Hero = () => {
   const skillsIcons = [
@@ -20,9 +21,9 @@ export const Hero = () => {
     <>
       <section id="home" className="hero">
         <div className="container">
-          <div className="content">
-            <div className="hero-main">
-              <div className="hero-text">
+          <div className="Hero__content">
+            <div className="Hero__main">
+              <div className="Hero__main-text">
                 <h1>Front-End Developer</h1>
                 <p>
                   Hi, I'm Karol Faltyn. A passionate Front-end React Developer
@@ -46,20 +47,20 @@ export const Hero = () => {
                     <IconBrandGithub width={32} height={32} />
                   </a>
                 </span>
-                <div className="hero-img"></div>
+                <div className="Hero__main-img"></div>
               </div>
+            </div>
 
-              <div className="skills">
-                <p>Tech Stack</p>
-                <div className="logos">
-                  <ul>
-                    {skillsIcons.map((icon) => (
-                      <li key={icon.id}>
-                        <img src={icon.img} alt="skill-icon" />
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+            <div className="Hero__skills">
+              <p>Tech Stack</p>
+              <div className="Hero__skills-logos">
+                <ul>
+                  {skillsIcons.map((icon) => (
+                    <li key={icon.id}>
+                      <img src={icon.img} alt="skill-icon" />
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
           </div>

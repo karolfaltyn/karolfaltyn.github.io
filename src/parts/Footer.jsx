@@ -1,22 +1,23 @@
 import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
+import "../assets/style/footer.css";
 
 export const Footer = () => {
   return (
     <>
       <footer>
         <div className="container">
-          <div className="content">
+          <div className="Footer__content">
             <h3>
               Copyright © {new Date().getFullYear()}. All rights are reserved
             </h3>
-            <div className="content-socials">
+            <div className="Footer__content-socials">
               <a
                 aria-label="linkedin"
                 href="https://www.linkedin.com/in/karol-faltyn/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <IconBrandLinkedin width={32} height={32} />
+                <IconBrandLinkedin width={30} height={30} />
               </a>
               <a
                 aria-label="github"
@@ -24,7 +25,7 @@ export const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <IconBrandGithub width={32} height={32} />
+                <IconBrandGithub width={30} height={30} />
               </a>
             </div>
           </div>
