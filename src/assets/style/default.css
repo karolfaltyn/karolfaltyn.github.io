@@ -14,8 +14,10 @@
   --fs-nav: 1rem;
   --fs-nav-logo: 1.375rem;
   --fs-heading: 3.438rem;
-  --fs-secondary-heading: 1rem;
+  --fs-medium-heading: 1.625rem;
+  --fs-small-heading: 1rem;
   --fs-paragraph: 1.125rem;
+  --fs-large-paragraph: 1.625rem;
 }
 
 @media (max-width: 62.5em) {

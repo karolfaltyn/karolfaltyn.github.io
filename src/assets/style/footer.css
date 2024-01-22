@@ -11,11 +11,11 @@ footer {
   justify-content: space-between;
   align-items: center;
   gap: 0 1rem;
-  margin: 1.5rem;
+  padding: 1rem;
 }
 
-.Footer__content h3 {
-  font-size: var(--fs-nav);
+.Footer__content h5 {
+  font-size: var(--fs-small-heading);
   font-family: var(--ff-light);
   text-align: center;
 }
@@ -32,7 +32,7 @@ footer {
   .Footer__content {
     flex-direction: column;
   }
-  .Footer__content h3 {
-    margin-top: 1.5rem;
+  .Footer__content h5 {
+    margin-top: 0.6rem;
   }
 }

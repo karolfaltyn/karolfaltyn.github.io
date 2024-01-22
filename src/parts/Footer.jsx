@@ -10,7 +10,7 @@ export const Footer = () => {
       <footer>
         <div className="container">
           <div className="Footer__content">
-            <h3>© {new Date().getFullYear()} Karol Faltyn</h3>
+            <h5>© {new Date().getFullYear()} Karol Faltyn</h5>
             <div className="Footer__content-socials">
               <a
                 aria-label="linkedin"
