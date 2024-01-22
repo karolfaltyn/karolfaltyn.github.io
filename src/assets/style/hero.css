@@ -3,7 +3,7 @@
 .hero {
   background-color: var(--clr-neutral-700);
   color: var(--clr-neutral-300);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px #dddddd;
 }
 
 .Hero__content {
@@ -18,8 +18,9 @@
   margin-bottom: 6rem;
 }
 
-.Hero__text {
-  width: 70ch;
+.Hero__text p {
+  padding-top: 1rem;
+  width: 40ch;
 }
 
 .Hero__text h1 {
@@ -38,8 +39,12 @@
   font-weight: bold;
 }
 
-.Hero__img {
+.Hero__img img {
   width: 350px;
+  border-radius: 10% 10% 10% 10% / 10% 10% 10% 10%;
+  -webkit-box-shadow: 3px 3px 10px 3px #dddddd;
+  -moz-box-shadow: 3px 3px 10px 3px #dddddd;
+  box-shadow: 3px 3px 10px 3px #dddddd;
 }
 
 .Hero__skills {
@@ -50,12 +55,47 @@
   gap: 1rem;
 }
 
+.Hero__skills p::after {
+  content: "|";
+}
+
 .Hero__icons ul {
   display: flex;
   list-style-type: none;
   gap: 0.5rem;
 }
 
-/* .skill-icon:hover {
-  background-color: red;
-} */
+.skill-icon {
+  width: 36px;
+}
+
+.skill-icon:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 58.125em) {
+  .Hero__main {
+    flex-direction: column-reverse;
+  }
+  .Hero__text h1 {
+    text-align: center;
+  }
+  .Hero__text p {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .Hero__skills p::after {
+    content: "";
+  }
+  .Hero__skills {
+    flex-direction: column;
+  }
+  .Hero__icons ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+}

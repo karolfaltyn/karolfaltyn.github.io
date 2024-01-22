@@ -1,9 +1,9 @@
 import "../assets/style/footer.css";
 
 export const Footer = () => {
-  let github = require("../assets/images/social-icons/github-logo-36.png");
-  let linkedin = require("../assets/images/social-icons/linkedin-logo-36.png");
-  let gmail = require("../assets/images/social-icons/gmail-logo-36.png");
+  let github = require("../assets/images/social-icons/github-logo-36-alt-color.png");
+  let linkedin = require("../assets/images/social-icons/linkedin-logo-36-alt-color.png");
+  let gmail = require("../assets/images/social-icons/gmail-logo-36-alt-color.png");
 
   return (
     <>
@@ -30,7 +30,6 @@ export const Footer = () => {
               </a>
               <a href="mailto:karolfaltyn03@gmail.com">
                 <img src={gmail} alt="gmail" />
-                karolfaltyn03@gmail.com
               </a>
             </div>
           </div>

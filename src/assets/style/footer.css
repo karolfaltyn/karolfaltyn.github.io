@@ -1,1 +1,38 @@
 @import url(default.css);
+
+footer {
+  background-color: var(--clr-neutral-300);
+  color: var(--clr-neutral-700);
+}
+
+.Footer__content,
+.Footer__content-socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 1rem;
+  margin: 1.5rem;
+}
+
+.Footer__content h3 {
+  font-size: var(--fs-nav);
+  font-family: var(--ff-light);
+  text-align: center;
+}
+
+.Footer__content img {
+  width: 24px;
+}
+
+.Footer__content img:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 31.25em) {
+  .Footer__content {
+    flex-direction: column;
+  }
+  .Footer__content h3 {
+    margin-top: 1.5rem;
+  }
+}

@@ -23,7 +23,7 @@
 }
 
 .Navbar__content {
-  margin-top: 1rem;
+  margin: 1rem;
 }
 .Navbar__content a {
   color: var(--clr-neutral-300);

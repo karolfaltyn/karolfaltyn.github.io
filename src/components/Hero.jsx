@@ -8,19 +8,19 @@ export const Hero = () => {
 
   const skillsIcons = [
     {
-      img: require("../assets/images/tech-icons/html5-logo-36.png"),
+      img: require("../assets/images/tech-icons/html5-logo-48.png"),
       id: 1,
     },
     {
-      img: require("../assets/images/tech-icons/css3-logo-36.png"),
+      img: require("../assets/images/tech-icons/css3-logo-48.png"),
       id: 2,
     },
     {
-      img: require("../assets/images/tech-icons/javascript-logo-36.png"),
+      img: require("../assets/images/tech-icons/javascript-logo-48.png"),
       id: 3,
     },
     {
-      img: require("../assets/images/tech-icons/react-logo-36.png"),
+      img: require("../assets/images/tech-icons/react-logo-48.png"),
       id: 4,
     },
   ];
@@ -62,7 +62,7 @@ export const Hero = () => {
             </div>
 
             <div className="Hero__skills">
-              <p>Tech Stack |</p>
+              <p>Tech Stack </p>
               <div className="Hero__icons">
                 <ul>
                   {skillsIcons.map((icon) => (

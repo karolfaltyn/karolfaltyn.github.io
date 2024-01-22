@@ -18,10 +18,11 @@
   --fs-paragraph: 1.125rem;
 }
 
-/* @media for small width fonts {
-  --fs-heading: 2.5rem;
-
-} */
+@media (max-width: 62.5em) {
+  :root {
+    --fs-heading: 3rem;
+  }
+}
 
 @font-face {
   font-family: default-regular;
@@ -102,8 +103,4 @@ svg {
   margin: 0 auto;
   width: 90%;
   max-width: 1000px;
-}
-
-html {
-  scroll-behavior: smooth;
 }
