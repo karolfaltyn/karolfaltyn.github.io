@@ -1,1 +1,44 @@
 @import url(default.css);
+
+.nav {
+  background-color: var(--clr-neutral-700);
+  color: var(--clr-neutral-300);
+  position: fixed;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  transition: top 0.7s ease-in-out;
+}
+
+.nav.visible {
+  top: 0;
+}
+
+.Navbar__content,
+.Navbar__options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.Navbar__content a {
+  color: var(--clr-neutral-300);
+  text-decoration: none;
+}
+
+.Navbar__options a:hover {
+  opacity: 65%;
+}
+
+.Navbar__options {
+  font-family: var(--ff-regular);
+  font-size: var(--fs-nav);
+  margin: 2rem;
+}
+
+.Navbar__logo {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-nav-logo);
+  font-weight: bold;
+}

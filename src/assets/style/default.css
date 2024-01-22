@@ -2,19 +2,33 @@
   --clr-primary: ;
 
   --clr-neutral-100: #000000;
-  --clr-neutral-300: #2d2e32;
-  --clr-neutral-400: #555555;
-  --clr-neutral-500: #767676;
-  --clr-neutral-800: #f9f9f9;
+  --clr-neutral-300: #242426;
+  --clr-neutral-700: #f6f6f6;
+  --clr-neutral-800: #fcfcfc;
   --clr-neutral-900: #ffffff;
 
-  --ff-heading: var(--ff-primary);
-  --ff-body: var(--ff-primary);
+  --ff-regular: default-regular;
+  --ff-light: default-light;
+  --ff-heading: heading;
 
-  --fw-regular: ;
+  --fs-nav: 1rem;
+  --fs-nav-logo: 1.375rem;
+  --fs-heading: clamp(2rem, 70vw, 2.5rem);
+  --fs-secondary-heading: 1rem;
+  --fs-paragraph: 1rem;
+}
 
-  --fs-heading: ;
-  --fs-paragraph: ;
+@font-face {
+  font-family: default-regular;
+  src: url(../fonts/MatterTRIAL-Regular.otf);
+}
+@font-face {
+  font-family: default-light;
+  src: url(../fonts/MatterTRIAL-Light.otf);
+}
+@font-face {
+  font-family: heading;
+  src: url(../fonts/TiemposHeadline-Light.otf);
 }
 
 /* CSS RESET */
@@ -77,4 +91,10 @@ svg {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
 }
