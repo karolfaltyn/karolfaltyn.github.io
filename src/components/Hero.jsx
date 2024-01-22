@@ -1,19 +1,27 @@
-import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
 import "../assets/style/hero.css";
 
 export const Hero = () => {
+  let myPic = require("../assets/images/myPic.png");
+  // let github = require("../assets/images/social-icons/github-logo-36.png");
+  // let linkedin = require("../assets/images/social-icons/linkedin-logo-36.png");
+  // let gmail = require("../assets/images/social-icons/gmail-logo-36.png");
+
   const skillsIcons = [
     {
-      img: "https://skillicons.dev/icons?i=html,css",
+      img: require("../assets/images/tech-icons/html5-logo-36.png"),
       id: 1,
     },
     {
-      img: "https://skillicons.dev/icons?i=js,react",
+      img: require("../assets/images/tech-icons/css3-logo-36.png"),
       id: 2,
     },
     {
-      img: "https://skillicons.dev/icons?i=github,vscode",
+      img: require("../assets/images/tech-icons/javascript-logo-36.png"),
       id: 3,
+    },
+    {
+      img: require("../assets/images/tech-icons/react-logo-36.png"),
+      id: 4,
     },
   ];
 
@@ -29,14 +37,14 @@ export const Hero = () => {
                   Hi, I'm Karol Faltyn. A passionate Front-end React Developer
                   based in Wrocław, Poland.
                 </p>
-                <span>
+                {/* <span>
                   <a
                     aria-label="linkedin"
                     href="https://www.linkedin.com/in/karol-faltyn/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <IconBrandLinkedin width={32} height={32} />
+                    <img src={linkedin} alt="linkedin" />
                   </a>
                   <a
                     aria-label="github"
@@ -44,10 +52,12 @@ export const Hero = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <IconBrandGithub width={32} height={32} />
+                    <img src={github} alt="github" />
                   </a>
-                </span>
-                <div className="Hero__img"></div>
+                </span> */}
+                <div className="Hero__img">
+                  <img src={myPic} alt="karol-faltyn" width={100} />
+                </div>
               </div>
             </div>
 

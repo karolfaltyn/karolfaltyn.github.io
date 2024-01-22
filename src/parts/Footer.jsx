@@ -1,15 +1,16 @@
-import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
 import "../assets/style/footer.css";
 
 export const Footer = () => {
+  let github = require("../assets/images/social-icons/github-logo-36.png");
+  let linkedin = require("../assets/images/social-icons/linkedin-logo-36.png");
+  let gmail = require("../assets/images/social-icons/gmail-logo-36.png");
+
   return (
     <>
       <footer>
         <div className="container">
           <div className="Footer__content">
-            <h3>
-              Copyright © {new Date().getFullYear()}. All rights are reserved
-            </h3>
+            <h3>© {new Date().getFullYear()} Karol Faltyn</h3>
             <div className="Footer__content-socials">
               <a
                 aria-label="linkedin"
@@ -17,7 +18,7 @@ export const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <IconBrandLinkedin width={30} height={30} />
+                <img src={linkedin} alt="linkedin" />
               </a>
               <a
                 aria-label="github"
@@ -25,7 +26,11 @@ export const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <IconBrandGithub width={30} height={30} />
+                <img src={github} alt="github" />
+              </a>
+              <a href="mailto:karolfaltyn03@gmail.com">
+                <img src={gmail} alt="gmail" />
+                karolfaltyn03@gmail.com
               </a>
             </div>
           </div>

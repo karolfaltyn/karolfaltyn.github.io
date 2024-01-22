@@ -1,4 +1,4 @@
-import { IconMail, IconMapSearch } from "@tabler/icons-react";
+// import { IconMail, IconMapSearch } from "@tabler/icons-react";
 import "../assets/style/contact.css";
 
 export const Contact = () => {
@@ -12,7 +12,7 @@ export const Contact = () => {
               <h3>Contact me</h3>
             </div>
 
-            <div className="Contact__options">
+            {/* <div className="Contact__options">
               <div className="Contact__icon-box">
                 <span>
                   <IconMapSearch width={30} height={30}></IconMapSearch>
@@ -34,7 +34,7 @@ export const Contact = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
