@@ -1,1 +1,61 @@
 @import url(default.css);
+
+.hero {
+  background-color: var(--clr-neutral-700);
+  color: var(--clr-neutral-300);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.Hero__content {
+  padding-top: 10rem;
+}
+
+.Hero__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 6rem;
+}
+
+.Hero__text {
+  width: 70ch;
+}
+
+.Hero__text h1 {
+  font-family: var(--ff-regular);
+  font-weight: bolder;
+  font-size: var(--fs-heading);
+}
+
+.Hero__text p,
+.Hero__skills p {
+  font-size: var(--fs-paragraph);
+  font-family: var(--ff-light);
+}
+
+.Hero__skills p {
+  font-weight: bold;
+}
+
+.Hero__img {
+  width: 350px;
+}
+
+.Hero__skills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.Hero__icons ul {
+  display: flex;
+  list-style-type: none;
+  gap: 0.5rem;
+}
+
+/* .skill-icon:hover {
+  background-color: red;
+} */

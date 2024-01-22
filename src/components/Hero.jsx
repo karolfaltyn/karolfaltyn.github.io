@@ -55,24 +55,29 @@ export const Hero = () => {
                     <img src={github} alt="github" />
                   </a>
                 </span> */}
-                <div className="Hero__img">
-                  <img src={myPic} alt="karol-faltyn" width={100} />
-                </div>
+              </div>
+              <div className="Hero__img">
+                <img src={myPic} alt="karol-faltyn" />
               </div>
             </div>
 
             <div className="Hero__skills">
-              <p>Tech Stack</p>
-              <div className="Hero__logos">
+              <p>Tech Stack |</p>
+              <div className="Hero__icons">
                 <ul>
                   {skillsIcons.map((icon) => (
                     <li key={icon.id}>
-                      <img src={icon.img} alt="skill-icon" />
+                      <img
+                        src={icon.img}
+                        alt="skill-icon"
+                        className="skill-icon"
+                      />
                     </li>
                   ))}
                 </ul>
               </div>
             </div>
+            <br />
           </div>
         </div>
       </section>

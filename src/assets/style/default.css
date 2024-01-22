@@ -13,10 +13,15 @@
 
   --fs-nav: 1rem;
   --fs-nav-logo: 1.375rem;
-  --fs-heading: clamp(2rem, 70vw, 2.5rem);
+  --fs-heading: 3.438rem;
   --fs-secondary-heading: 1rem;
-  --fs-paragraph: 1rem;
+  --fs-paragraph: 1.125rem;
 }
+
+/* @media for small width fonts {
+  --fs-heading: 2.5rem;
+
+} */
 
 @font-face {
   font-family: default-regular;
@@ -97,4 +102,8 @@ svg {
   margin: 0 auto;
   width: 90%;
   max-width: 1000px;
+}
+
+html {
+  scroll-behavior: smooth;
 }

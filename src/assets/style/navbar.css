@@ -7,7 +7,7 @@
   top: -100px;
   left: 0;
   width: 100%;
-  transition: top 0.7s ease-in-out;
+  transition: top 0.5s ease-in-out;
 }
 
 .nav.visible {
@@ -22,6 +22,9 @@
   gap: 2rem;
 }
 
+.Navbar__content {
+  margin-top: 1rem;
+}
 .Navbar__content a {
   color: var(--clr-neutral-300);
   text-decoration: none;
@@ -34,7 +37,6 @@
 .Navbar__options {
   font-family: var(--ff-regular);
   font-size: var(--fs-nav);
-  margin: 2rem;
 }
 
 .Navbar__logo {
