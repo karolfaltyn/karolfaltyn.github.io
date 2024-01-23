@@ -31,8 +31,8 @@ export const Hero = () => {
               <div className="Hero__text">
                 <h1>Front-End Developer</h1>
                 <p>
-                  Hi, I'm Karol Faltyn. A passionate Front-end React Developer
-                  based in Wrocław, Poland.
+                  Hi, I'm Karol. A passionate Front-end React Developer from
+                  Wrocław, Poland.
                 </p>
               </div>
               <div className="Hero__img">

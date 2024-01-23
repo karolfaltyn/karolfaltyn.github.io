@@ -1,8 +1,8 @@
 @import url(default.css);
 
 footer {
-  background-color: var(--font-bgc-clr);
-  color: var(--clr-neutral-700);
+  background-color: var(--bgc-clr-3);
+  color: var(--font-clr-alt);
 }
 
 .Footer__content,

@@ -1,9 +1,8 @@
 @import url(default.css);
 
 .hero {
-  background-color: var(--bgc-clr-1);
-  color: var(--clr-neutral-300);
-  box-shadow: 0 0 10px #dddddd;
+  background-color: var(--bgc-clr-2);
+  color: var(--font-clr);
 }
 
 .Hero__content {

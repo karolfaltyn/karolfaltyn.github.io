@@ -2,8 +2,7 @@
 
 .pagenotfound {
   background-color: var(--bgc-clr-2);
-  color: var(--clr-neutral-300);
-  box-shadow: 0 0 10px #dddddd;
+  color: var(--font-clr);
   height: 100vh;
 }
 
@@ -28,12 +27,22 @@
 }
 
 .PageNotFound__content a {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.PageNotFound__content a img {
+  -webkit-filter: invert(0.2); /* safari 6.0 - 9.0 */
+  filter: invert(0.2);
+}
+
+.PageNotFound__content a {
   margin-top: 1rem;
   font-family: var(--ff-regular);
   font-weight: bolder;
   font-size: var(--fs-medium-heading);
   text-decoration: none;
-  color: var(--clr-neutral-300);
+  color: var(--font-clr);
 }
 
 .PageNotFound__content a:hover {

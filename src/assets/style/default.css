@@ -3,13 +3,15 @@
 
   --clr-neutral-100: #000000;
   --clr-neutral-300: #242426;
-  --clr-neutral-700: #f8f8f8;
+  --clr-neutral-700: #efefef;
   --clr-neutral-800: #fcfcfc;
   --clr-neutral-900: #ffffff;
 
+  --font-clr: var(--clr-neutral-300);
+  --font-clr-alt: var(--clr-neutral-800);
   --bgc-clr-1: var(--clr-neutral-700);
   --bgc-clr-2: var(--clr-neutral-800);
-  --font-bgc-clr: var(--clr-neutral-300);
+  --bgc-clr-3: var(--clr-neutral-300);
 
   --ff-regular: default-regular;
   --ff-light: default-light;

@@ -2,7 +2,7 @@
 
 .contact {
   background-color: var(--bgc-clr-2);
-  color: var(--clr-neutral-300);
+  color: var(--font-clr);
 }
 
 .Contact__title h2 {
@@ -47,13 +47,13 @@
 .Contact__text a {
   font-family: var(--ff-light);
   text-decoration: none;
-  color: var(--clr-neutral-300);
+  color: var(--font-clr);
 }
 
 .Contact__text p:hover,
 .Contact__text a:hover {
   cursor: pointer;
-  transition: all 0.1s ease-in-out;
+  transition: all 0.2s ease-in-out;
   opacity: 65%;
 }
 
