@@ -1,0 +1,42 @@
+@import url(default.css);
+
+.pagenotfound {
+  background-color: var(--bgc-clr-2);
+  color: var(--clr-neutral-300);
+  box-shadow: 0 0 10px #dddddd;
+  height: 100vh;
+}
+
+.PageNotFound__content {
+  padding-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.PageNotFound__content h1 {
+  margin-top: 1.5rem;
+  font-family: var(--ff-regular);
+  font-weight: bolder;
+  font-size: var(--fs-heading);
+}
+
+.PageNotFound__content p {
+  font-size: var(--fs-paragraph);
+  font-family: var(--ff-light);
+}
+
+.PageNotFound__content a {
+  margin-top: 1rem;
+  font-family: var(--ff-regular);
+  font-weight: bolder;
+  font-size: var(--fs-medium-heading);
+  text-decoration: none;
+  color: var(--clr-neutral-300);
+}
+
+.PageNotFound__content a:hover {
+  transition: all 0.2s ease-in-out;
+  opacity: 65%;
+}

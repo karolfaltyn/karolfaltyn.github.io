@@ -1,6 +1,6 @@
-import "../assets/style/navbar.css";
 import React, { useState, useEffect, useCallback } from "react";
 import { Outlet, Link } from "react-router-dom";
+import "../assets/style/navbar.css";
 
 export const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);

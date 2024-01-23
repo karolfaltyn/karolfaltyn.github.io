@@ -1,7 +1,11 @@
+import { PageNotFound } from "../components/PageNotFound";
+
 export const NoPage = () => {
   return (
     <>
-      <h1>404 Page not found</h1>
+      <main>
+        <PageNotFound />
+      </main>
     </>
   );
 };
