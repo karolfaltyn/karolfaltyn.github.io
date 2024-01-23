@@ -1,8 +1,8 @@
 import "../assets/style/contact.css";
 
 export const Contact = () => {
-  let location = require("../assets/images/other-icons/map-regular-48.png");
-  let mail = require("../assets/images/other-icons/envelope-regular-48.png");
+  let location = require("../assets/images/other-icons/map-icon.svg").default;
+  let mail = require("../assets/images/other-icons/envelope-icon.svg").default;
 
   return (
     <>
@@ -16,9 +16,7 @@ export const Contact = () => {
 
             <div className="Contact__options">
               <div className="Contact__info-box">
-                <div className="Contact__info-img">
-                  <img src={location} alt="map-icon" />
-                </div>
+                <img src={location} alt="map-icon" />
                 <div className="Contact__text">
                   <h3>Location</h3>
                   <p>Wrocław, Poland</p>
@@ -26,9 +24,7 @@ export const Contact = () => {
               </div>
 
               <div className="Contact__info-box">
-                <div className="Contact__info-img">
-                  <img src={mail} alt="gmail" />
-                </div>
+                <img src={mail} alt="gmail" />
                 <div className="Contact__text">
                   <h3>Mail</h3>
                   <a href="mailto:karolfaltyn03@gmail.com">

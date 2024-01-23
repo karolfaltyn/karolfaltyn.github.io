@@ -2,25 +2,22 @@ import "../assets/style/hero.css";
 
 export const Hero = () => {
   let myPic = require("../assets/images/myPic.png");
-  // let github = require("../assets/images/social-icons/github-logo-36.png");
-  // let linkedin = require("../assets/images/social-icons/linkedin-logo-36.png");
-  // let gmail = require("../assets/images/social-icons/gmail-logo-36.png");
 
   const skillsIcons = [
     {
-      img: require("../assets/images/tech-icons/html5-logo-48.png"),
+      img: require("../assets/images/tech-icons/html-icon.svg").default,
       id: 1,
     },
     {
-      img: require("../assets/images/tech-icons/css3-logo-48.png"),
+      img: require("../assets/images/tech-icons/css-icon.svg").default,
       id: 2,
     },
     {
-      img: require("../assets/images/tech-icons/javascript-logo-48.png"),
+      img: require("../assets/images/tech-icons/javascript-icon.svg").default,
       id: 3,
     },
     {
-      img: require("../assets/images/tech-icons/react-logo-48.png"),
+      img: require("../assets/images/tech-icons/react-icon.svg").default,
       id: 4,
     },
   ];
@@ -37,24 +34,6 @@ export const Hero = () => {
                   Hi, I'm Karol Faltyn. A passionate Front-end React Developer
                   based in Wrocław, Poland.
                 </p>
-                {/* <span>
-                  <a
-                    aria-label="linkedin"
-                    href="https://www.linkedin.com/in/karol-faltyn/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={linkedin} alt="linkedin" />
-                  </a>
-                  <a
-                    aria-label="github"
-                    href="https://github.com/karolfaltyn"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={github} alt="github" />
-                  </a>
-                </span> */}
               </div>
               <div className="Hero__img">
                 <img src={myPic} alt="karol-faltyn" />

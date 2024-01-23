@@ -1,7 +1,7 @@
 @import url(default.css);
 
 .contact {
-  background-color: var(--clr-neutral-800);
+  background-color: var(--bgc-clr-2);
   color: var(--clr-neutral-300);
 }
 
@@ -31,8 +31,10 @@
   gap: 1rem;
 }
 
-.Contact__info-img {
+.Contact__info-box img {
   width: 42px;
+  -webkit-filter: invert(0.1); /* safari 6.0 - 9.0 */
+  filter: invert(0.1);
 }
 
 .Contact__text h3 {
