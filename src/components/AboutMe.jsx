@@ -5,11 +5,9 @@ export const AboutMe = () => {
     <>
       <section id="about" className="about">
         <div className="container">
-          <div className="AboutMe__content">
-            <div className="AboutMe__img-side">
-              {/* <img src="" alt="" /> */}
-            </div>
-            <div className="AboutMe__text-side">
+          <div className="About__content">
+            <div className="About__img-side">{/* <img src="" alt="" /> */}</div>
+            <div className="About__text-side">
               <h3>About me</h3>
               <h4>
                 Front-end Developer <br /> based in Wrocław, Poland.

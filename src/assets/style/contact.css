@@ -51,6 +51,7 @@
 .Contact__text p:hover,
 .Contact__text a:hover {
   cursor: pointer;
+  transition: all 0.1s ease-in-out;
   opacity: 65%;
 }
 

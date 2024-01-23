@@ -1,19 +1,20 @@
-import { Navbar } from "./parts/Navbar";
-import { Hero } from "./components/Hero";
-import { AboutMe } from "./components/AboutMe";
-import { Projects } from "./components/Projects";
-import { Contact } from "./components/Contact";
-import { Footer } from "./parts/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Home } from "./pages/Home";
+import { About } from "./pages/About";
+import { Resume } from "./pages/Resume";
+import { NoPage } from "./pages/NoPage";
 
 export const App = () => {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <AboutMe />
-      <Projects />
-      <Contact />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="resume" element={<Resume />} />
+          <Route path="*" element={<NoPage />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

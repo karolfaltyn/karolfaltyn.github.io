@@ -1,12 +1,13 @@
 import "../assets/style/navbar.css";
 import React, { useState, useEffect, useCallback } from "react";
+import { Outlet, Link } from "react-router-dom";
 
 export const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
 
   const handleScroll = useCallback(() => {
-    const currentScrollPos = window.pageYOffset;
+    const currentScrollPos = window.scrollY;
     setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
     setPrevScrollPos(currentScrollPos);
   }, [prevScrollPos]);
@@ -29,17 +30,18 @@ export const Navbar = () => {
         <div className="container">
           <div className="Navbar__content">
             <div className="Navbar__logo">
-              <a aria-current="page" href="/">
+              <Link aria-current="page" to="/">
                 <p>KF.</p>
-              </a>
+              </Link>
             </div>
             <div className="Navbar__options">
-              <a href="/About">About</a>
-              <a href="/Resume">Resume</a>
+              <Link to="/About">About</Link>
+              <Link to="/Resume">Resume</Link>
             </div>
           </div>
         </div>
       </nav>
+      <Outlet />
     </>
   );
 };
