@@ -1,18 +1,34 @@
+import "../assets/style/projects.css";
+
 export const Projects = () => {
+  let projects = require("../assets/images/svg-on-pages/projects.svg").default;
+  let project_img = require("../assets/images/project-images/abstract.png");
+
   return (
     <>
       <section className="projects" id="projects">
         <div className="container">
           <div className="Projects__content">
-            <h3>Portfolio</h3>
+            <div className="Projects__title">
+              <img src={projects} alt="projects" />
+              <h2>PORTFOLIO</h2>
+              <p>Here are part of my projects</p>
+            </div>
             <div className="Projects__box">
-              <div className="Project__img-side">
-                {/* <img src="" alt="" /> */}
+              <div className="Projects__img-side">
+                <img src={project_img} alt="project" />
               </div>
+              <hr />
               <div className="Projects__text-side">
                 <div className="Projects__desc">
-                  <h4>Project Name</h4>
-                  <p>Project description</p>
+                  <h3>Project Name</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Adipisci quam eligendi nostrum ad vel voluptatum,
+                    consequatur quae, a voluptatibus, eius labore quisquam velit
+                    itaque ex temporibus inventore optio laudantium
+                    necessitatibus!
+                  </p>
                   <p>Tech usage</p>
                 </div>
                 <div className="Projects__live-code">

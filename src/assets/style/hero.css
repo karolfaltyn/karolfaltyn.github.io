@@ -3,18 +3,19 @@
 .hero {
   background-color: var(--bgc-clr-2);
   color: var(--font-clr);
+  box-shadow: 0px 0px 10px 0px #dddddd;
 }
 
 .Hero__content {
-  padding-top: 10rem;
+  padding-top: 15rem;
 }
 
-.Hero__main {
+.Hero__box {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  margin-bottom: 6rem;
+  margin-bottom: 7rem;
 }
 
 .Hero__text p {
@@ -72,11 +73,15 @@
 
 .skill-icon:hover {
   transition: all 0.2s ease-in-out;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
 
 @media (max-width: 58.125em) {
-  .Hero__main {
+  .Hero__box {
     flex-direction: column-reverse;
   }
   .Hero__text h1 {
@@ -99,5 +104,14 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.5rem;
+  }
+}
+
+@media (max-width: 34.375em) {
+  .Hero__content {
+    padding-top: 8rem;
+  }
+  .Hero__box {
+    margin-bottom: 3rem;
   }
 }

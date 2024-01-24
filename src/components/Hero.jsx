@@ -27,7 +27,7 @@ export const Hero = () => {
       <section id="home" className="hero">
         <div className="container">
           <div className="Hero__content">
-            <div className="Hero__main">
+            <div className="Hero__box">
               <div className="Hero__text">
                 <h1>Front-End Developer</h1>
                 <p>

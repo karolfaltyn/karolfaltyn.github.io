@@ -3,6 +3,7 @@
 .contact {
   background-color: var(--bgc-clr-2);
   color: var(--font-clr);
+  margin-bottom: 6rem;
 }
 
 .Contact__title h2 {
@@ -10,11 +11,13 @@
   font-family: var(--ff-regular);
   font-weight: bold;
   letter-spacing: 0.1rem;
+  margin-bottom: 0.5rem;
 }
 .Contact__title p {
   text-align: center;
   font-family: var(--ff-regular);
   font-size: var(--fs-large-paragraph);
+  margin-bottom: 0.5rem;
 }
 
 .Contact__options {

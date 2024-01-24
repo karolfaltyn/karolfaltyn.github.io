@@ -4,7 +4,7 @@ import "../assets/style/pagenotfound.css";
 
 export const PageNotFound = () => {
   let error = require("../assets/images/svg-on-pages/error.svg").default;
-  let goback =
+  let go_back =
     require("../assets/images/other-icons/left-arrow-icon.svg").default;
 
   return (
@@ -17,7 +17,7 @@ export const PageNotFound = () => {
             <p>Page not found</p>
             <Link to="/">
               Lets go back
-              <img src={goback} alt="back arrow" />
+              <img src={go_back} alt="back arrow" />
             </Link>
           </div>
         </div>
