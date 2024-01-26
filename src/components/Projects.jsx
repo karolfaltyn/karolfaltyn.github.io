@@ -3,6 +3,9 @@ import "../assets/style/projects.css";
 export const Projects = () => {
   let projects = require("../assets/images/svg-on-pages/projects.svg").default;
   let project_img = require("../assets/images/project-images/abstract.png");
+  let code = require("../assets/images/other-icons/code-icon.svg").default;
+  let link =
+    require("../assets/images/other-icons/link-external-icon.svg").default;
 
   return (
     <>
@@ -29,7 +32,6 @@ export const Projects = () => {
                     itaque ex temporibus inventore optio laudantium
                     necessitatibus!
                   </p>
-                  <p>Tech usage</p>
                 </div>
                 <div className="Projects__live-code">
                   <a
@@ -39,7 +41,7 @@ export const Projects = () => {
                     rel="noreferrer"
                   >
                     Code
-                    {/* add github image */}
+                    <img src={code} alt="code" />
                   </a>
                   <a
                     aria-label="project live view"
@@ -47,8 +49,8 @@ export const Projects = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Live view
-                    {/* add open in another card image */}
+                    Live
+                    <img src={link} alt="link" />
                   </a>
                 </div>
               </div>

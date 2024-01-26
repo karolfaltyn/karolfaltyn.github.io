@@ -1,6 +1,5 @@
 import { Navbar } from "../parts/Navbar";
 import { AboutMe } from "../components/AboutMe";
-import { Projects } from "../components/Projects";
 import { Footer } from "../parts/Footer";
 
 export const About = () => {
@@ -8,7 +7,6 @@ export const About = () => {
     <>
       <Navbar />
       <AboutMe />
-      <Projects />
       <Footer />
     </>
   );

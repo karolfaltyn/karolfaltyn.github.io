@@ -1,3 +1,11 @@
+import { Navbar } from "../parts/Navbar";
+import { Footer } from "../parts/Footer";
+
 export const Resume = () => {
-  // return <h1>Lorem100</h1>;
+  return (
+    <>
+      <Navbar />
+      <Footer />
+    </>
+  );
 };

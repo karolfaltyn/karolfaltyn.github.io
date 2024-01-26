@@ -1,1 +1,66 @@
 @import url(default.css);
+
+.about {
+  background-color: var(--bgc-clr-2);
+  color: var(--font-clr);
+  padding-top: 10rem;
+  margin-bottom: 6rem;
+}
+
+.About__title h2 {
+  text-align: center;
+  font-family: var(--ff-regular);
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.About__title p {
+  text-align: center;
+  font-family: var(--ff-regular);
+  font-size: var(--fs-large-paragraph);
+  margin-bottom: 5rem;
+}
+
+.About__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* .About__img-side img {
+} */
+
+.About__text-side h2 {
+  font-family: var(--ff-regular);
+  font-weight: bold;
+  font-size: var(--fs-paragraph);
+}
+
+.About__text-side p {
+  font-family: var(--ff-light);
+  font-size: var(--fs-paragraph);
+}
+
+.About__img-side img {
+  width: 30rem;
+}
+
+@media (max-width: 46.875em) {
+  .About__box {
+    flex-direction: column;
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+  .About__content p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .About__img-side img {
+    width: 20rem;
+  }
+}
