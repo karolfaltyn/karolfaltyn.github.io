@@ -27,10 +27,8 @@
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  margin-bottom: 4rem;
 }
-
-/* .About__img-side img {
-} */
 
 .About__text-side h2 {
   font-family: var(--ff-regular);
@@ -53,6 +51,11 @@
     max-width: 30rem;
     margin: 0 auto;
   }
+
+  .About__text-side {
+    margin-top: 2rem;
+  }
+
   .About__content p {
     margin-top: 1rem;
     margin-bottom: 1rem;

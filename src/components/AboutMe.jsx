@@ -2,6 +2,7 @@ import "../assets/style/aboutme.css";
 
 export const AboutMe = () => {
   let about_me = require("../assets/images/svg-on-pages/aboutme.svg").default;
+  let about_me2 = require("../assets/images/svg-on-pages/aboutme2.svg").default;
 
   return (
     <>
@@ -25,6 +26,16 @@ export const AboutMe = () => {
               <div className="About__img-side">
                 <img src={about_me} alt="aboutme" />
               </div>
+            </div>
+            <div className="About__box">
+              <div className="About__text-side">
+                <p>
+                  ABOUT ME
+                </p>
+              </div>
+              {/* <div className="About__img-side">
+                <img src={about_me2} alt="aboutme" />
+              </div> */}
             </div>
           </div>
         </div>
