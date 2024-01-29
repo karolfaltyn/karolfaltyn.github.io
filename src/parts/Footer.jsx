@@ -29,7 +29,7 @@ export const Footer = () => {
               >
                 <img src={github} alt="github" />
               </a>
-              <a href="mailto:karolfaltyn03@gmail.com">
+              <a href="mailto:karolfaltyn03@gmail.com" aria-label="gmail">
                 <img src={gmail} alt="gmail" />
               </a>
             </div>

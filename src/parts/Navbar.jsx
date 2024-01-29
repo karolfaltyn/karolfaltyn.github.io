@@ -35,8 +35,8 @@ export const Navbar = () => {
               </Link>
             </div>
             <div className="Navbar__options">
-              <Link to="/About">About</Link>
-              <Link to="/Resume">Resume</Link>
+              <Link to="/About" aria-label="About">About</Link>
+              <Link to="/CV" aria-label="CV">CV</Link>
             </div>
           </div>
         </div>

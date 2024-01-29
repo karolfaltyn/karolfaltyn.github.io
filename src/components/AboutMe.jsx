@@ -30,12 +30,45 @@ export const AboutMe = () => {
             <div className="About__box">
               <div className="About__text-side">
                 <p>
-                  ABOUT ME
+                  I started my adventure with frontend in the second year of IT
+                  technical secondary school. Before I knew it, programming
+                  became my passion. I immediately started writing small
+                  projects to practice and expand knowledge. My school organized
+                  two months internship in a company, where I strengthened my
+                  teamwork skills and continued to improve my programming
+                  experience and other knowledge related to computer networks
+                  and databases. I also earned several Cisco certifications,
+                  thanks to my school's collaboration with the Cisco Networking
+                  Academy. At the end of secondary school I became an IT
+                  specialist, passing the INF 01, INF 02 IT exams and the
+                  secondary school leaving exam.
+                  <br />
+                  <br />
+                  Currently, since November 2023, I am a member of the official
+                  developers' circle in Wrocław University of Science and
+                  Technology -{" "}
+                  <span>
+                    <a
+                      href="https://wmsdev.pl/"
+                      aria-label="WMS_DEV"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      WMS_DEV
+                    </a>
+                  </span>
+                  .
+                </p>
+                <br />
+                <p>
+                  Beside to my passion for programming, I am also interested in
+                  classic men's fashion and psychology, especially human
+                  behavior.
                 </p>
               </div>
-              {/* <div className="About__img-side">
-                <img src={about_me2} alt="aboutme" />
-              </div> */}
+            </div>
+            <div className="About__img">
+              <img src={about_me2} alt="aboutme" />
             </div>
           </div>
         </div>
