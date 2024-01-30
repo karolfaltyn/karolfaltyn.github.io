@@ -45,7 +45,7 @@ export const AboutMe = () => {
                   <br />
                   <br />
                   Currently, since November 2023, I am a member of the official
-                  developers' circle in Wrocław University of Science and
+                  developer's circle in Wrocław University of Science and
                   Technology -{" "}
                   <span>
                     <a
@@ -61,9 +61,9 @@ export const AboutMe = () => {
                 </p>
                 <br />
                 <p>
-                  Beside to my passion for programming, I am also interested in
-                  classic men's fashion and psychology, especially human
-                  behavior.
+                  Beside from my passion for programming, I am also interested
+                  in classic men's fashion, calisthenics and psychology, in
+                  particular the psychology of human behavior.
                 </p>
               </div>
             </div>

@@ -11,7 +11,7 @@ export const Footer = () => {
       <footer>
         <div className="container">
           <div className="Footer__content">
-            <h5>© {new Date().getFullYear()} Karol Faltyn</h5>
+            <h5>{new Date().getFullYear()} All right reserved </h5>
             <div className="Footer__content-socials">
               <a
                 aria-label="linkedin"
