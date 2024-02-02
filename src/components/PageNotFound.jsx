@@ -12,7 +12,7 @@ export const PageNotFound = () => {
       <section className="pagenotfound" id="pagenotfound">
         <div className="container">
           <div className="PageNotFound__content">
-            <img src={error} alt="error 404" />
+            <img src={error} alt="error 404" className="PageNotFound__img-content" />
             <h1>Error 404!</h1>
             <p>Page not found</p>
             <Link to="/">

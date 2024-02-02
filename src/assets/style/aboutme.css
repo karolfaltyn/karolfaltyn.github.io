@@ -81,4 +81,7 @@
   .About__img-side img {
     width: 20rem;
   }
+  .About__img{
+    margin-top: 2rem;
+  }
 }
