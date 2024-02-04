@@ -1,7 +1,7 @@
 @import url(default.css);
 
 footer {
-  background-color: var(--bgc-clr-3);
+  background-color: var(--bgc-clr-footer);
   color: var(--font-clr-alt);
 }
 

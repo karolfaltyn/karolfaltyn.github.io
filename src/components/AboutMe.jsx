@@ -29,8 +29,9 @@ export const AboutMe = () => {
             </div>
             <div className="About__box">
               <div className="About__text-side">
+                <h5>How it's started.</h5>
                 <p>
-                  I started my adventure with frontend in the second year of IT
+                  My adventure with frontend began in the second year of IT
                   technical secondary school. Before I knew it, programming
                   became my passion. I immediately started writing small
                   projects to practice and expand knowledge. My school organized
@@ -42,8 +43,13 @@ export const AboutMe = () => {
                   Academy. At the end of secondary school I became an IT
                   specialist, passing the INF 01, INF 02 IT exams and the
                   secondary school leaving exam.
-                  <br />
-                  <br />
+                </p>
+              </div>
+            </div>
+            <div className="About__box">
+              <div className="About__text-side">
+                <h5>How it's going.</h5>
+                <p>
                   Currently, since November 2023, I am a member of the official
                   developer's circle in Wrocław University of Science and
                   Technology -{" "}

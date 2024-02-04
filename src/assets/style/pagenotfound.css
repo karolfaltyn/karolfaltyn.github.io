@@ -1,7 +1,7 @@
 @import url(default.css);
 
 .pagenotfound {
-  background-color: var(--bgc-clr-2);
+  background-color: var(--bgc-clr-body);
   color: var(--font-clr);
   height: 100vh;
 }

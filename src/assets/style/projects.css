@@ -1,7 +1,7 @@
 @import url(default.css);
 
 .projects {
-  background-color: var(--bgc-clr-2);
+  background-color: var(--bgc-clr-body);
   color: var(--font-clr);
   margin-bottom: 6rem;
 }
@@ -38,9 +38,9 @@
   flex-direction: row-reverse;
   gap: 3rem;
   margin-block-end: 5rem;
-  background-color: var(--bgc-clr-4);
+  background-color: var(--bgc-clr-box);
   padding: 2rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 .Projects__box:nth-child(2n) {
@@ -82,6 +82,8 @@ hr {
   display: flex;
   justify-content: space-evenly;
   gap: 2rem;
+  font-family: var(--ff-regular);
+  font-weight: bold;
 }
 
 .Projects__live-code img {

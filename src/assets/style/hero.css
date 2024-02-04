@@ -1,7 +1,7 @@
 @import url(default.css);
 
 .hero {
-  background-color: var(--bgc-clr-2);
+  background-color: var(--bgc-clr-hero);
   color: var(--font-clr);
   box-shadow: 0px 0px 10px 0px #dddddd;
   padding-top: 15rem;

@@ -3,16 +3,19 @@
 
   --clr-neutral-100: #000000;
   --clr-neutral-300: #242426;
-  --clr-neutral-700: #efefef;
+  --clr-neutral-700: #f6f6f6;
   --clr-neutral-800: #fcfcfc;
   --clr-neutral-900: #ffffff;
 
   --font-clr: var(--clr-neutral-300);
-  --font-clr-alt: var(--clr-neutral-800);
-  --bgc-clr-1: var(--clr-neutral-700);
-  --bgc-clr-2: var(--clr-neutral-800);
-  --bgc-clr-3: var(--clr-neutral-300);
-  --bgc-clr-4: var(--clr-neutral-900);
+  --font-clr-alt: var(--clr-neutral-700);
+  --bgc-clr-nav: var(--clr-neutral-700);
+  --bgc-clr-hero: var(--clr-neutral-700);
+  --bgc-clr-body: var(--clr-neutral-800);
+  --bgc-clr-body-alt: var(--clr-neutral-700);
+  --bgc-clr-box: var(--clr-neutral-700);
+  --bgc-clr-box-alt: var(--clr-neutral-900);
+  --bgc-clr-footer: var(--clr-neutral-300);
 
   --ff-regular: default-regular;
   --ff-light: default-light;
@@ -112,8 +115,4 @@ svg {
   margin: 0 auto;
   width: 90%;
   max-width: 1000px;
-}
-
-body {
-  background-color: var(--bgc-clr-2);
 }

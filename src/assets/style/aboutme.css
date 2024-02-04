@@ -1,10 +1,9 @@
 @import url(default.css);
 
 .about {
-  background-color: var(--bgc-clr-2);
+  background-color: var(--bgc-clr-body-alt);
   color: var(--font-clr);
   padding-top: 10rem;
-  margin-bottom: 6rem;
 }
 
 .About__title h2 {
@@ -22,12 +21,21 @@
   margin-bottom: 5rem;
 }
 
+h5 {
+  font-family: var(--ff-light);
+  font-size: var(--fs-large-paragraph);
+  margin-bottom: 1rem;
+}
+
 .About__box {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2rem;
   margin-bottom: 4rem;
+  background-color: var(--bgc-clr-body);
+  padding: 2rem;
+  border-radius: 1rem;
 }
 
 .About__text-side h2 {
@@ -42,7 +50,7 @@
 }
 
 .About__img-side img {
-  width: 30rem;
+  width: 25rem;
 }
 
 .About__text-side a {
@@ -58,22 +66,16 @@
 .About__img img {
   width: 30rem;
   margin: 0 auto;
+  padding-bottom: 6rem;
 }
 
 @media (max-width: 46.875em) {
   .About__box {
     flex-direction: column;
-    max-width: 30rem;
-    margin: 0 auto;
   }
 
   .About__text-side {
     margin-top: 2rem;
-  }
-
-  .About__content p {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
   }
 }
 
@@ -81,7 +83,7 @@
   .About__img-side img {
     width: 20rem;
   }
-  .About__img{
+  .About__img {
     margin-top: 2rem;
   }
 }

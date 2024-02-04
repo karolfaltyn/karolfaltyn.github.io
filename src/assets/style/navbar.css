@@ -1,7 +1,7 @@
 @import url(default.css);
 
 .nav {
-  background-color: var(--bgc-clr-1);
+  background-color: var(--bgc-clr-nav);
   color: var(--font-clr);
   position: fixed;
   top: -100px;
