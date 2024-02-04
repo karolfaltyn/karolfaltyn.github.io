@@ -40,7 +40,7 @@
   margin-block-end: 5rem;
   background-color: var(--bgc-clr-4);
   padding: 2rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
 }
 
 .Projects__box:nth-child(2n) {

@@ -1,0 +1,13 @@
+@import url(default.css);
+
+.mydata {
+  color: var(--font-clr);
+  padding-top: 15rem;
+  margin-bottom: 6rem;
+}
+
+.MyData__content {
+  background-color: var(--bgc-clr-4);
+  border-radius: 2rem;
+  padding: 2rem;
+}
