@@ -73,6 +73,16 @@ export const AboutMe = () => {
                 </p>
               </div>
             </div>
+            <div className="About__box">
+              <div className="About__text-side">
+                <h5>Other facts</h5>
+                <p>
+                  Beside from my passion for programming, I am also interested
+                  in classic men's fashion, calisthenics and psychology, in
+                  particular the psychology of human behavior.
+                </p>
+              </div>
+            </div>
             <div className="About__img">
               <img src={about_me2} alt="aboutme" />
             </div>

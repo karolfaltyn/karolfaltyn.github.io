@@ -21,7 +21,7 @@
   margin-bottom: 5rem;
 }
 
-h5 {
+.About__box h5 {
   font-family: var(--ff-light);
   font-size: var(--fs-large-paragraph);
   margin-bottom: 1rem;
@@ -72,10 +72,6 @@ h5 {
 @media (max-width: 46.875em) {
   .About__box {
     flex-direction: column;
-  }
-
-  .About__text-side {
-    margin-top: 2rem;
   }
 }
 
