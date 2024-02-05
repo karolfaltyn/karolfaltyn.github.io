@@ -69,12 +69,14 @@ hr {
 
 .Projects__desc h3 {
   font-family: var(--ff-regular);
+  font-size: var(--fs-small-heading);
   font-weight: bold;
 }
 
 .Projects__desc p {
   max-width: 60ch;
   font-family: var(--ff-light);
+  font-size: var(--fs-paragraph);
 }
 
 .Projects__live-code {

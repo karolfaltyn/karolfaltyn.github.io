@@ -30,28 +30,43 @@ export const MyData = () => {
             <div className="MyData__cv-section">
               <h2>EXPERIENCE</h2>
               <div className="MyData__experience">
-                <div className="MyData-experience-box">
+                <div className="MyData__box">
                   <h3>WMS-DEV</h3>
-                  <p className="MyData__experience-date">
-                    November 2023 - Present
+                  <p className="MyData__date">November 2023 - Present</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nostrum aut debitis, atque eaque id provident tempore
+                    eligendi non, magnam recusandae cum? Tempora earum soluta
+                    itaque!
                   </p>
+                </div>
+                <div className="MyData__box">
+                  <h3>2M Marek Workiewicz</h3>
+                  <p className="MyData__date">February 2022 - March 2022</p>
                   <p></p>
                 </div>
-                <div className="MyData-experience-box">
+                <div className="MyData__box">
                   <h3>2M Marek Workiewicz</h3>
-                  <p className="MyData__experience-date">
-                    February 2022 - March 2022
-                  </p>
-                  <p></p>
-                </div>
-                <div className="MyData-experience-box">
-                  <h3>2M Marek Workiewicz</h3>
-                  <p className="MyData__experience-date">June 2021</p>
+                  <p className="MyData__date">June 2021</p>
                   <p></p>
                 </div>
               </div>
             </div>
-            <div className="MyData__cv-section"></div>
+            <div className="MyData__cv-section">
+              <h2>EDUCATION</h2>
+              <div className="MyData__education">
+                <div className="MyData__box">
+                  <h3>WMS-DEV</h3>
+                  <p className="MyData__date">November 2023 - Present</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nostrum aut debitis, atque eaque id provident tempore
+                    eligendi non, magnam recusandae cum? Tempora earum soluta
+                    itaque!
+                  </p>
+                </div>
+              </div>
+            </div>
             <div className="MyData__cv-section"></div>
           </div>
         </div>

@@ -18,6 +18,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 .MyData__title h2 {
   font-family: var(--ff-regular);
   font-weight: bold;
@@ -41,6 +42,8 @@
 .MyData__name-contacts {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 4rem;
+  gap: 1rem;
 }
 
 .MyData__name-contacts h1 {
@@ -50,4 +53,62 @@
 
 .MyData__name-contacts ul {
   list-style: none;
+  font-family: var(--ff-light);
+}
+
+.MyData__cv-section {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.MyData__cv-section h2 {
+  font-family: var(--ff-light);
+}
+
+.MyData__cv-section h3 {
+  font-family: var(--ff-regular);
+  font-size: var(--fs-paragraph);
+  font-weight: bold;
+}
+
+.MyData__cv-section p {
+  font-family: var(--ff-light);
+  font-size: var(--fs-paragraph);
+}
+
+.MyData__date {
+  font-family: var(--ff-light);
+  color: var(--font-clr-alt2);
+  margin-bottom: 0.5rem;
+}
+
+.MyData__box {
+  max-width: 70ch;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 62.5em) {
+  .MyData__cv-section {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 50em) {
+  .MyData__name-contacts {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 31.25em) {
+  .MyData__content {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 18.75em) {
+  .MyData__content {
+    padding: 1rem;
+  }
 }
