@@ -55,6 +55,7 @@
 
 .About__text-side a {
   color: var(--font-clr);
+  font-family: var(--ff-regular);
   text-decoration: none;
 }
 

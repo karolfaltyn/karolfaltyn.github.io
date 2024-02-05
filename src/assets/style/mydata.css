@@ -2,7 +2,7 @@
 
 .mydata {
   color: var(--font-clr);
-  padding-top: 15rem;
+  padding-top: 10rem;
   padding-bottom: 6rem;
   background-color: var(--bgc-clr-body-alt);
 }
@@ -11,4 +11,43 @@
   background-color: var(--bgc-clr-box-alt);
   border-radius: 2rem;
   padding: 4rem;
+}
+
+.MyData__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.MyData__title h2 {
+  font-family: var(--ff-regular);
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.MyData__title a {
+  font-family: var(--ff-regular);
+  font-size: var(--fs-large-paragraph);
+  margin-bottom: 5rem;
+  text-decoration: none;
+  color: var(--font-clr);
+}
+
+.MyData__title a:hover {
+  transition: all 0.2s ease-in-out;
+  opacity: 65%;
+}
+
+.MyData__name-contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.MyData__name-contacts h1 {
+  font-size: var(--fs-heading);
+  font-family: var(--ff-heading);
+}
+
+.MyData__name-contacts ul {
+  list-style: none;
 }

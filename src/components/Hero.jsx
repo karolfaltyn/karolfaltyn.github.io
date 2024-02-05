@@ -1,4 +1,4 @@
-import "../assets/style/mydata.css";
+import "../assets/style/hero.css";
 
 export const Hero = () => {
   let myPic = require("../assets/images/myPic.png");

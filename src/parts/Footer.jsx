@@ -15,7 +15,7 @@ export const Footer = () => {
             <div className="Footer__content-socials">
               <a
                 aria-label="linkedin"
-                href="https://www.linkedin.com/in/karol-faltyn/"
+                href="https://www.linkedin.com/in/karolfaltyn/"
                 target="_blank"
                 rel="noreferrer"
               >
