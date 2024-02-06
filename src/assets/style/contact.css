@@ -1,7 +1,7 @@
 @import url(default.css);
 
 .contact {
-  background-color: var(--bgc-clr-2);
+  background-color: var(--bgc-clr-body);
   color: var(--font-clr);
   margin-bottom: 6rem;
 }

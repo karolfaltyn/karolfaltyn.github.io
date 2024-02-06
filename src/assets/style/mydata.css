@@ -9,7 +9,7 @@
 
 .MyData__content {
   background-color: var(--bgc-clr-box-alt);
-  border-radius: 2rem;
+  border-radius: 1rem;
   padding: 4rem;
 }
 

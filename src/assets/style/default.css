@@ -118,3 +118,7 @@ svg {
   width: 90%;
   max-width: 1000px;
 }
+
+body {
+  background-color: var(--bgc-clr-body);
+}
