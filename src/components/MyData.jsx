@@ -37,10 +37,10 @@ export const MyData = () => {
                     November 2023 - Present, Internship
                   </p>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nostrum aut debitis, atque eaque id provident tempore
-                    eligendi non, magnam recusandae cum? Tempora earum soluta
-                    itaque!
+                    • Creating React web applications,
+                    <br />
+                    • Remote work with the team,
+                    <br />• Working with git
                   </p>
                 </div>
                 <div className="MyData__box">
@@ -48,12 +48,22 @@ export const MyData = () => {
                   <p className="MyData__date">
                     February 2022 - March 2022, Internship
                   </p>
-                  <p></p>
+                  <p>
+                    • Creating and modifying web pages,
+                    <br />
+                    • Working with HTML, CSS, JavaScript language,
+                    <br />• Services of hardware
+                  </p>
                 </div>
                 <div className="MyData__box">
                   <h3>2M Marek Workiewicz</h3>
                   <p className="MyData__date">June 2021, Internship</p>
-                  <p></p>
+                  <p>
+                    • Creating and modifying web pages,
+                    <br />
+                    • Problem-solving with hardware and software,
+                    <br />• Installation and configuration drivers and software
+                  </p>
                 </div>
               </div>
             </div>
@@ -63,7 +73,7 @@ export const MyData = () => {
               <div className="MyData__education">
                 <div className="MyData__box">
                   <h3>Zespół Szkół i Placówek Oświatowych w Nysie</h3>
-                  <p className="MyData__date">ADD DATE</p>
+                  <p className="MyData__date">2019 - 2023</p>
                   <p>IT Technical secondary school.</p>
                 </div>
               </div>
@@ -88,11 +98,23 @@ export const MyData = () => {
               <div className="MyData__education">
                 <div className="MyData__box">
                   <h3>Cisco</h3>
-                  <p></p>
+                  <p>
+                    IT Essentials: PC Hardware and Software,
+                    <br />
+                    CCNAv7: Introduction to Networks,
+                    <br />
+                    PCAP: Programming Essentials in Python
+                  </p>
                 </div>
                 <div className="MyData__box">
                   <h3>Other</h3>
-                  <p>INF01, INF02</p>
+                  <p>
+                    INF. 02. Administration and operation of computer systems,
+                    peripheral devices and local computer networks,
+                    <br />
+                    INF. 03. Creating and administering websites, web
+                    applications and databases
+                  </p>
                 </div>
               </div>
             </div>

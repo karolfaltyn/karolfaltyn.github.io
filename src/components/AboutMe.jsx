@@ -41,7 +41,7 @@ export const AboutMe = () => {
                   and databases. I also earned several Cisco certifications,
                   thanks to my school's collaboration with the Cisco Networking
                   Academy. At the end of secondary school I became an IT
-                  specialist, passing the INF 01, INF 02 IT exams and the
+                  specialist, passing the INF 02, INF 03 IT exams and the
                   secondary school leaving exam.
                 </p>
               </div>
