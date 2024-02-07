@@ -20,6 +20,10 @@ export const Hero = () => {
       img: require("../assets/images/tech-icons/react-icon.svg").default,
       id: 4,
     },
+    {
+      img: require("../assets/images/tech-icons/git-icon.svg").default,
+      id: 5,
+    },
   ];
 
   return (
@@ -31,8 +35,8 @@ export const Hero = () => {
               <div className="Hero__text">
                 <h1>Front-End Developer</h1>
                 <p>
-                  Hi, I'm Karol. A passionate Front-end React Developer from
-                  Wrocław, Poland.
+                  Hi, I'm Karol. A passionate Front-end Developer from Wrocław,
+                  Poland.
                 </p>
               </div>
               <div className="Hero__img">

@@ -11,6 +11,9 @@
   background-color: var(--bgc-clr-box-alt);
   border-radius: 1rem;
   padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .MyData__title {
@@ -58,13 +61,13 @@
 
 .MyData__cv-section {
   display: flex;
-  justify-content: space-around;
-  gap: 1rem;
-  margin-bottom: 2rem;
+  justify-content: space-between;
+  gap: 8rem;
 }
 
 .MyData__cv-section h2 {
   font-family: var(--ff-light);
+  margin-left: 4rem;
 }
 
 .MyData__cv-section h3 {
@@ -76,6 +79,7 @@
 .MyData__cv-section p {
   font-family: var(--ff-light);
   font-size: var(--fs-paragraph);
+  width: 50ch;
 }
 
 .MyData__date {
@@ -85,19 +89,26 @@
 }
 
 .MyData__box {
-  max-width: 70ch;
   margin-bottom: 2rem;
 }
 
 @media (max-width: 62.5em) {
   .MyData__cv-section {
     flex-direction: column;
+    gap: 1rem;
+  }
+  .MyData__cv-section h2 {
+    margin-left: 0;
   }
 }
 
 @media (max-width: 50em) {
   .MyData__name-contacts {
     flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  .MyData__cv-section p {
+    width: auto;
   }
 }
 
