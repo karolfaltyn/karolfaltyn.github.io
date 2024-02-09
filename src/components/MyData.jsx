@@ -51,7 +51,7 @@ export const MyData = () => {
                   <p>
                     • Creating and modifying web pages,
                     <br />
-                    • Working with HTML, CSS, JavaScript language,
+                    • Working with HTML, CSS, Sass, JavaScript language,
                     <br />• Services of hardware
                   </p>
                 </div>

@@ -65,12 +65,6 @@ export const AboutMe = () => {
                   </span>
                   .
                 </p>
-                <br />
-                <p>
-                  Beside from my passion for programming, I am also interested
-                  in classic men's fashion, calisthenics and psychology, in
-                  particular the psychology of human behavior.
-                </p>
               </div>
             </div>
             <div className="About__box">
