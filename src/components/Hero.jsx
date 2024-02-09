@@ -13,16 +13,20 @@ export const Hero = () => {
       id: 2,
     },
     {
-      img: require("../assets/images/tech-icons/javascript-icon.svg").default,
+      img: require("../assets/images/tech-icons/sass-icon.svg").default,
       id: 3,
     },
     {
-      img: require("../assets/images/tech-icons/react-icon.svg").default,
+      img: require("../assets/images/tech-icons/javascript-icon.svg").default,
       id: 4,
     },
     {
-      img: require("../assets/images/tech-icons/git-icon.svg").default,
+      img: require("../assets/images/tech-icons/react-icon.svg").default,
       id: 5,
+    },
+    {
+      img: require("../assets/images/tech-icons/git-icon.svg").default,
+      id: 6,
     },
   ];
 

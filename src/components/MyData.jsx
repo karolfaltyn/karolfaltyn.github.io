@@ -1,5 +1,5 @@
 import "../assets/style/mydata.css";
-import CV_Karol_Faltyn from "../assets/CV_Karol_Faltyn.pdf";
+// import CV_Karol_Faltyn from "../assets/CV_Karol_Faltyn.pdf";
 
 export const MyData = () => {
   return (
