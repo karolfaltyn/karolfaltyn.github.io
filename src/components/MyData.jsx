@@ -39,8 +39,8 @@ export const MyData = () => {
                   <p>
                     • Creating React web applications,
                     <br />
-                    • Remote work with the team,
-                    <br />• Working with git
+                    • Remote work with the team on Git,
+                    <br />• Making code review
                   </p>
                 </div>
                 <div className="MyData__box">
@@ -50,8 +50,6 @@ export const MyData = () => {
                   </p>
                   <p>
                     • Creating and modifying web pages,
-                    <br />
-                    • Working with HTML, CSS, Sass, JavaScript language,
                     <br />• Services of hardware
                   </p>
                 </div>
@@ -80,15 +78,21 @@ export const MyData = () => {
             </div>
 
             <div className="MyData__cv-section">
-              <h2>SKILLSET</h2>
+              <h2>TECHNICAL SKILLS</h2>
               <div className="MyData__education">
                 <div className="MyData__box">
-                  <h3>Tools</h3>
-                  <p>HTML, CSS, JavaScript, React, Git, </p>
+                  <h3>Technologies</h3>
+                  <p>
+                    HTML, CSS, Sass/SCSS, JavaScript, React, Git, Github,
+                    Windows, MacOS, Linux - Ubuntu, Visual Studio Code
+                  </p>
                 </div>
                 <div className="MyData__box">
                   <h3>Other</h3>
-                  <p>Windows, MacOS, Linux - Ubuntu, </p>
+                  <p>
+                    Creativity, Teamwork, Communication skills, Critical
+                    thinking, Time management, Adaptability, Problem solving{" "}
+                  </p>
                 </div>
               </div>
             </div>

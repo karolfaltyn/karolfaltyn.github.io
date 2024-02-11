@@ -7,26 +7,32 @@ export const Hero = () => {
     {
       img: require("../assets/images/tech-icons/html-icon.svg").default,
       id: 1,
+      name: "HTML",
     },
     {
       img: require("../assets/images/tech-icons/css-icon.svg").default,
       id: 2,
+      name: "CSS",
     },
     {
       img: require("../assets/images/tech-icons/sass-icon.svg").default,
       id: 3,
+      name: "Sass/SCSS",
     },
     {
       img: require("../assets/images/tech-icons/javascript-icon.svg").default,
       id: 4,
+      name: "JavaScript",
     },
     {
       img: require("../assets/images/tech-icons/react-icon.svg").default,
       id: 5,
+      name: "React",
     },
     {
       img: require("../assets/images/tech-icons/git-icon.svg").default,
       id: 6,
+      name: "Git",
     },
   ];
 
@@ -58,6 +64,7 @@ export const Hero = () => {
                         src={icon.img}
                         alt="skill-icon"
                         className="skill-icon"
+                        title={icon.name}
                       />
                     </li>
                   ))}

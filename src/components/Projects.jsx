@@ -2,6 +2,7 @@ import "../assets/style/projects.css";
 
 export const Projects = () => {
   let projects = require("../assets/images/svg-on-pages/projects.svg").default;
+  let to_do_list = require("../assets/images/project-images/to-do-list.png");
   let number_analyzer = require("../assets/images/project-images/number-analyzer.png");
   let asteroids = require("../assets/images/project-images/asteroids.png");
   let abstract = require("../assets/images/project-images/abstract.png");
@@ -22,20 +23,20 @@ export const Projects = () => {
 
             <div className="Projects__box">
               <div className="Projects__img-side">
-                <img src={number_analyzer} alt="project" />
+                <img src={to_do_list} alt="project" />
               </div>
               <div className="Projects__text-side">
                 <div className="Projects__desc">
-                  <h3>Project Name</h3>
+                  <h3>To-do List</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A,
-                    numquam.
+                    Project that allow user to store tasks along with their
+                    username using the browser's local storage.
                   </p>
                 </div>
                 <div className="Projects__live-code">
                   <a
                     aria-label="project code"
-                    href="##"
+                    href="https://github.com/karolfaltyn/to-do-list"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -44,7 +45,7 @@ export const Projects = () => {
                   </a>
                   <a
                     aria-label="project live view"
-                    href="##"
+                    href="https://karolfaltyn.github.io/to-do-list/"
                     target="_blank"
                     rel="noreferrer"
                   >
