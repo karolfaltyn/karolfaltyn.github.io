@@ -83,8 +83,8 @@ export const MyData = () => {
                 <div className="MyData__box">
                   <h3>Technologies</h3>
                   <p>
-                    HTML, CSS, Sass/SCSS, JavaScript, React, Git, Github,
-                    Windows, MacOS, Linux - Ubuntu, Visual Studio Code
+                    HTML, CSS, Sass/SCSS, Tailwind, JavaScript, React, Git,
+                    Github, Windows, MacOS, Linux - Ubuntu, Visual Studio Code
                   </p>
                 </div>
                 <div className="MyData__box">

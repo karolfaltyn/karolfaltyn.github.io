@@ -20,18 +20,23 @@ export const Hero = () => {
       name: "Sass/SCSS",
     },
     {
-      img: require("../assets/images/tech-icons/javascript-icon.svg").default,
+      img: require("../assets/images/tech-icons/tailwind-icon.svg").default,
       id: 4,
+      name: "Tailwind",
+    },
+    {
+      img: require("../assets/images/tech-icons/javascript-icon.svg").default,
+      id: 5,
       name: "JavaScript",
     },
     {
       img: require("../assets/images/tech-icons/react-icon.svg").default,
-      id: 5,
+      id: 6,
       name: "React",
     },
     {
       img: require("../assets/images/tech-icons/git-icon.svg").default,
-      id: 6,
+      id: 7,
       name: "Git",
     },
   ];
