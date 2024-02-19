@@ -1,5 +1,5 @@
 import "../assets/style/mydata.css";
-// import CV_Karol_Faltyn from "../assets/CV_Karol_Faltyn.pdf";
+import CV_Karol_Faltyn from "../assets/CV-Faltyn-Karol.pdf";
 
 export const MyData = () => {
   return (
@@ -8,9 +8,15 @@ export const MyData = () => {
         <div className="container">
           <div className="MyData__title">
             <h2>CURRICULUM VITAE</h2>
-            <a href="##" target="_blank" rel="noreferrer">
-              DOWNLOAD
-            </a>
+            <h2>DOWNLOAD</h2>
+            <div className="MyData__download">
+              <a href="##" target="_blank" rel="noreferrer">
+                ENGLISH
+              </a>
+              <a href={CV_Karol_Faltyn} target="_blank" rel="noreferrer">
+                POLISH
+              </a>
+            </div>
           </div>
           <div className="MyData__content">
             <div className="MyData__name-contacts">

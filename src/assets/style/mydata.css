@@ -32,7 +32,6 @@
 .MyData__title a {
   font-family: var(--ff-regular);
   font-size: var(--fs-large-paragraph);
-  margin-bottom: 5rem;
   text-decoration: none;
   color: var(--font-clr);
 }
@@ -40,6 +39,13 @@
 .MyData__title a:hover {
   transition: all 0.2s ease-in-out;
   opacity: 65%;
+}
+
+.MyData__download {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 5rem;
 }
 
 .MyData__name-contacts {
