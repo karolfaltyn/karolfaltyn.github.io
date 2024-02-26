@@ -2,6 +2,7 @@ import "../assets/style/projects.css";
 
 export const Projects = () => {
   let projects = require("../assets/images/svg-on-pages/projects.svg").default;
+  let weather = require("../assets/images/project-images/weather.png");
   let to_do_list = require("../assets/images/project-images/to-do-list.png");
   let number_analyzer = require("../assets/images/project-images/number-analyzer.png");
   let asteroids = require("../assets/images/project-images/asteroids.png");
@@ -23,6 +24,44 @@ export const Projects = () => {
 
             <div className="Projects__box">
               <div className="Projects__img-side">
+                <img src={weather} alt="project" />
+              </div>
+              <div className="Projects__text-side">
+                <div className="Projects__desc">
+                  <h3>Weather</h3>
+                  <p>
+                    Type in a city and see if you should take an umbrella. The
+                    app uses weather forecast data from the OpenWeather API.
+                    <br />
+                    <br />
+                    Tech used: HTML, Tailwind, JavaScript, React
+                  </p>
+                </div>
+                <div className="Projects__live-code">
+                  <a
+                    aria-label="project code"
+                    href="https://github.com/karolfaltyn/weather"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Code
+                    <img src={code} alt="code" />
+                  </a>
+                  <a
+                    aria-label="project live view"
+                    href="https://karolfaltyn.github.io/weather/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live
+                    <img src={link} alt="link" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="Projects__box">
+              <div className="Projects__img-side">
                 <img src={to_do_list} alt="project" />
               </div>
               <div className="Projects__text-side">
@@ -31,6 +70,9 @@ export const Projects = () => {
                   <p>
                     Project that allow user to store tasks along with their
                     username using the browser's local storage.
+                    <br />
+                    <br />
+                    Tech used: HTML, Sass / SCSS, JavaScript
                   </p>
                 </div>
                 <div className="Projects__live-code">
@@ -65,7 +107,10 @@ export const Projects = () => {
                   <h3>Number Analyzer</h3>
                   <p>
                     Web application which generates numbers and categorizes them
-                    as even, odd or prime
+                    as even, odd or prime.
+                    <br />
+                    <br />
+                    Tech used: HTML, CSS, JavaScript, React
                   </p>
                 </div>
                 <div className="Projects__live-code">
@@ -102,6 +147,9 @@ export const Projects = () => {
                     A classic arcade-style game from 1979, that allows players
                     to control a spaceship and navigate through an asteroid
                     field, avoiding collisions and shooting asteroids.
+                    <br />
+                    <br />
+                    Tech used: HTML, JavaScript
                   </p>
                 </div>
                 <div className="Projects__live-code">
@@ -139,6 +187,9 @@ export const Projects = () => {
                     practice website. The goal is to enhance your HTML and CSS
                     skills by building a visually appealing and responsive
                     website.
+                    <br />
+                    <br />
+                    Tech used: HTML, CSS
                   </p>
                 </div>
                 <div className="Projects__live-code">
