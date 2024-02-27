@@ -1,5 +1,6 @@
 import "../assets/style/mydata.css";
-import CV_Karol_Faltyn from "../assets/CV-Faltyn-Karol.pdf";
+import CV_Karol_Faltyn_PL from "../assets/CV-Karol-Faltyn.pdf";
+import CV_Karol_Faltyn_ENG from "../assets/Reasume-Karol-Faltyn.pdf";
 
 export const MyData = () => {
   return (
@@ -10,10 +11,10 @@ export const MyData = () => {
             <h2>CURRICULUM VITAE</h2>
             <h2>DOWNLOAD</h2>
             <div className="MyData__download">
-              <a href="##" target="_blank" rel="noreferrer">
+              <a href={CV_Karol_Faltyn_ENG} target="_blank" rel="noreferrer">
                 ENGLISH
               </a>
-              <a href={CV_Karol_Faltyn} target="_blank" rel="noreferrer">
+              <a href={CV_Karol_Faltyn_PL} target="_blank" rel="noreferrer">
                 POLISH
               </a>
             </div>
@@ -43,10 +44,15 @@ export const MyData = () => {
                     November 2023 - Present, Internship
                   </p>
                   <p>
-                    • Creating React web applications,
+                    • Work for the science club.
                     <br />
-                    • Remote work with the team on Git,
-                    <br />• Making code review
+                    • Utilized frontend frameworks for efficient application
+                    development and the seamless integration of UI components.
+                    <br />• Using version control to effectively manage code
+                    repositories, facilitating collaboration between team
+                    members.
+                    <br />• Creating responsive website designs and optimizing
+                    website performance.
                   </p>
                 </div>
                 <div className="MyData__box">
@@ -55,18 +61,22 @@ export const MyData = () => {
                     February 2022 - March 2022, Internship
                   </p>
                   <p>
-                    • Creating and modifying web pages,
-                    <br />• Services of hardware
+                    • Coding using HTML, CSS and JavaScript to develop features
+                    for both mobile and desktop platforms.
+                    <br />• Implementing SEO requirements for websites.
                   </p>
                 </div>
                 <div className="MyData__box">
                   <h3>2M Marek Workiewicz</h3>
                   <p className="MyData__date">June 2021, Internship</p>
                   <p>
-                    • Creating and modifying web pages,
+                    • Website development for cross-browser integration and
+                    compatibility.
                     <br />
-                    • Problem-solving with hardware and software,
-                    <br />• Installation and configuration drivers and software
+                    • Comprehensive troubleshooting of hardware and software
+                    issues.
+                    <br />• Installation and configuration of drivers and
+                    software.
                   </p>
                 </div>
               </div>
@@ -89,15 +99,13 @@ export const MyData = () => {
                 <div className="MyData__box">
                   <h3>Technologies</h3>
                   <p>
-                    HTML, CSS, Sass/SCSS, Tailwind, JavaScript, React, Git,
-                    Github, Windows, MacOS, Linux - Ubuntu, Visual Studio Code
+                    HTML, CSS, Sass/SCSS, Tailwind, JavaScript, React, Git
                   </p>
                 </div>
                 <div className="MyData__box">
                   <h3>Other</h3>
                   <p>
-                    Creativity, Teamwork, Communication skills, Critical
-                    thinking, Time management, Adaptability, Problem solving{" "}
+                  Creativity, Communication skills, Critical thinking
                   </p>
                 </div>
               </div>
