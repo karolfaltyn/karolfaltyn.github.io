@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.464da5ae.css",
-    "main.js": "/static/js/main.0fdc5826.js",
+    "main.js": "/static/js/main.9633e496.js",
     "static/media/abstract.png": "/static/media/abstract.771308a68960210a1e15.png",
     "static/media/asteroids.png": "/static/media/asteroids.68e15c80aa02e9f82779.png",
     "static/media/number-analyzer.png": "/static/media/number-analyzer.06cfc62e6b6eaa014d43.png",
     "static/media/to-do-list.png": "/static/media/to-do-list.1f4370f9c36fb20fbe00.png",
     "static/media/myPic.png": "/static/media/myPic.9e907aefa067a580c977.png",
-    "static/media/weather.png": "/static/media/weather.abf1654e608709099129.png",
     "static/media/Reasume-Karol-Faltyn.pdf": "/static/media/Reasume-Karol-Faltyn.d8824dd6468022e4726d.pdf",
+    "static/media/weather.png": "/static/media/weather.d0e1645e023884159ab8.png",
     "static/media/CV-Karol-Faltyn.pdf": "/static/media/CV-Karol-Faltyn.e40d9d962e3f165fdc59.pdf",
     "static/media/MatterTRIAL-Regular.otf": "/static/media/MatterTRIAL-Regular.097090144dbfd5f8d8de.otf",
     "static/media/MatterTRIAL-Light.otf": "/static/media/MatterTRIAL-Light.faa8a8fcf5e2283a18e3.otf",
@@ -34,10 +34,10 @@
     "static/media/link-external-icon.svg": "/static/media/link-external-icon.9d2c10dd8145e9580922f4b3b0197eb6.svg",
     "static/media/left-arrow-icon.svg": "/static/media/left-arrow-icon.6dc011b0a3da1ae1d6b6ca0e7369e007.svg",
     "main.464da5ae.css.map": "/static/css/main.464da5ae.css.map",
-    "main.0fdc5826.js.map": "/static/js/main.0fdc5826.js.map"
+    "main.9633e496.js.map": "/static/js/main.9633e496.js.map"
   },
   "entrypoints": [
     "static/css/main.464da5ae.css",
-    "static/js/main.0fdc5826.js"
+    "static/js/main.9633e496.js"
   ]
 }
