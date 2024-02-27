@@ -30,8 +30,9 @@ export const Projects = () => {
                 <div className="Projects__desc">
                   <h3>Weather</h3>
                   <p>
-                    Type in a city and see if you should take an umbrella. The
-                    app uses weather forecast data from the OpenWeather API.
+                    Application that uses geolocation or, alternatively, allows
+                    users to manually input a location to retrieve and display
+                    current weather data conditions from the OpenWeather API
                     <br />
                     <br />
                     Tech used: HTML, Tailwind, JavaScript, React
