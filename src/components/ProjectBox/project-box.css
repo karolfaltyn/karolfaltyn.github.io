@@ -1,1 +1,65 @@
 @import url(../../index.css);
+
+.Projects__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin-block-end: 5rem;
+  background-color: var(--bgc-clr-box);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.Projects__img-side img {
+  width: 50rem;
+}
+
+.Projects__text-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.Projects__desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.Projects__desc h3 {
+  font-family: var(--ff-regular);
+  font-size: var(--fs-small-heading);
+  font-weight: bold;
+}
+
+.Projects__desc p {
+  max-width: 60ch;
+  font-family: var(--ff-light);
+  font-size: var(--fs-paragraph);
+}
+
+.Projects__live-code {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: var(--ff-regular);
+  font-weight: bold;
+}
+
+.Projects__live-code img {
+  -webkit-filter: invert(0.2); /* safari 6.0 - 9.0 */
+  filter: invert(0.2);
+}
+
+.Projects__live-code a {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--font-clr);
+  text-decoration: none;
+}
+
+.Projects__live-code a:hover {
+  transition: all 0.2s ease-in-out;
+  opacity: 65%;
+}
