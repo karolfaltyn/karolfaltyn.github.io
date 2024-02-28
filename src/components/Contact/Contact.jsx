@@ -1,8 +1,10 @@
-import "../assets/style/contact.css";
+import "./contact.css";
 
 export const Contact = () => {
-  let location = require("../assets/images/other-icons/map-icon.svg").default;
-  let mail = require("../assets/images/other-icons/envelope-icon.svg").default;
+  let location =
+    require("../../assets/images/other-icons/map-icon.svg").default;
+  let mail =
+    require("../../assets/images/other-icons/envelope-icon.svg").default;
 
   return (
     <>

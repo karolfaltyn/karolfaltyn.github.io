@@ -40,15 +40,15 @@
 
 @font-face {
   font-family: default-regular;
-  src: url(../fonts/MatterTRIAL-Regular.otf);
+  src: url(./assets/fonts/MatterTRIAL-Regular.otf);
 }
 @font-face {
   font-family: default-light;
-  src: url(../fonts/MatterTRIAL-Light.otf);
+  src: url(./assets/fonts/MatterTRIAL-Light.otf);
 }
 @font-face {
   font-family: heading;
-  src: url(../fonts/TiemposHeadline-Light.otf);
+  src: url(./assets/fonts/TiemposHeadline-Light.otf);
 }
 
 /* CSS RESET */

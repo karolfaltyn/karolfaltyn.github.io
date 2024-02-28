@@ -1,11 +1,11 @@
-import "../assets/style/mydata.css";
-import CV_Karol_Faltyn_PL from "../assets/CV-Karol-Faltyn.pdf";
-import CV_Karol_Faltyn_ENG from "../assets/Reasume-Karol-Faltyn.pdf";
+import "./my-data.css";
+import CV_Karol_Faltyn_PL from "../../assets/CV-Karol-Faltyn.pdf";
+import CV_Karol_Faltyn_ENG from "../../assets/Reasume-Karol-Faltyn.pdf";
 
 export const MyData = () => {
   return (
     <>
-      <section className="mydata" id="mydata">
+      <section className="my-data" id="my-data">
         <div className="container">
           <div className="MyData__title">
             <h2>CURRICULUM VITAE</h2>
@@ -98,15 +98,11 @@ export const MyData = () => {
               <div className="MyData__education">
                 <div className="MyData__box">
                   <h3>Technologies</h3>
-                  <p>
-                    HTML, CSS, Sass/SCSS, Tailwind, JavaScript, React, Git
-                  </p>
+                  <p>HTML, CSS, Sass/SCSS, Tailwind, JavaScript, React, Git</p>
                 </div>
                 <div className="MyData__box">
                   <h3>Other</h3>
-                  <p>
-                  Creativity, Communication skills, Critical thinking
-                  </p>
+                  <p>Creativity, Communication skills, Critical thinking</p>
                 </div>
               </div>
             </div>

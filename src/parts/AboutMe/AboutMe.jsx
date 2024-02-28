@@ -1,12 +1,14 @@
-import "../assets/style/aboutme.css";
+import "./about-me.css";
 
 export const AboutMe = () => {
-  let about_me = require("../assets/images/svg-on-pages/aboutme.svg").default;
-  let about_me2 = require("../assets/images/svg-on-pages/aboutme2.svg").default;
+  let about_me =
+    require("../../assets/images/svg-on-pages/about-me.svg").default;
+  let about_me2 =
+    require("../../assets/images/svg-on-pages/about-me2.svg").default;
 
   return (
     <>
-      <section id="about" className="about">
+      <section id="about-me" className="about-me">
         <div className="container">
           <div className="About__content">
             <div className="About__title">
@@ -24,7 +26,7 @@ export const AboutMe = () => {
                 </p>
               </div>
               <div className="About__img-side">
-                <img src={about_me} alt="aboutme" />
+                <img src={about_me} alt="aboutme pic" />
               </div>
             </div>
             <div className="About__box">
@@ -78,7 +80,7 @@ export const AboutMe = () => {
               </div>
             </div>
             <div className="About__img">
-              <img src={about_me2} alt="aboutme" />
+              <img src={about_me2} alt="about-me pic" />
             </div>
           </div>
         </div>

@@ -1,15 +1,16 @@
-import "../assets/style/projects.css";
+import "./projects.css";
 
 export const Projects = () => {
-  let projects = require("../assets/images/svg-on-pages/projects.svg").default;
-  let weather = require("../assets/images/project-images/weather.png");
-  let to_do_list = require("../assets/images/project-images/to-do-list.png");
-  let number_analyzer = require("../assets/images/project-images/number-analyzer.png");
-  let asteroids = require("../assets/images/project-images/asteroids.png");
-  let abstract = require("../assets/images/project-images/abstract.png");
-  let code = require("../assets/images/other-icons/code-icon.svg").default;
+  let projects =
+    require("../../assets/images/svg-on-pages/projects.svg").default;
+  let weather = require("../../assets/images/project-images/weather.png");
+  let to_do_list = require("../../assets/images/project-images/to-do-list.png");
+  let number_analyzer = require("../../assets/images/project-images/number-analyzer.png");
+  let asteroids = require("../../assets/images/project-images/asteroids.png");
+  let abstract = require("../../assets/images/project-images/abstract.png");
+  let code = require("../../assets/images/other-icons/code-icon.svg").default;
   let link =
-    require("../assets/images/other-icons/link-external-icon.svg").default;
+    require("../../assets/images/other-icons/link-external-icon.svg").default;
 
   return (
     <>

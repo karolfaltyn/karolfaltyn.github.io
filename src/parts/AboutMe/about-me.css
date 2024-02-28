@@ -1,6 +1,6 @@
-@import url(default.css);
+@import url(../../index.css);
 
-.about {
+.about-me {
   background-color: var(--bgc-clr-body-alt);
   color: var(--font-clr);
   padding-top: 10rem;

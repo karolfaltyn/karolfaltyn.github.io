@@ -1,10 +1,12 @@
-import "../assets/style/footer.css";
+import "./footer.css";
 
 export const Footer = () => {
-  let github = require("../assets/images/social-icons/github-icon.svg").default;
+  let github =
+    require("../../assets/images/social-icons/github-icon.svg").default;
   let linkedin =
-    require("../assets/images/social-icons/linkedin-icon.svg").default;
-  let gmail = require("../assets/images/social-icons/gmail-icon.svg").default;
+    require("../../assets/images/social-icons/linkedin-icon.svg").default;
+  let gmail =
+    require("../../assets/images/social-icons/gmail-icon.svg").default;
 
   return (
     <>

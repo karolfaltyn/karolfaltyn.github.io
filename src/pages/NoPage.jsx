@@ -1,4 +1,4 @@
-import { PageNotFound } from "../components/PageNotFound";
+import { PageNotFound } from "../parts/PageNotFound/PageNotFound";
 
 export const NoPage = () => {
   return (

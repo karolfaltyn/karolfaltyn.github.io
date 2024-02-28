@@ -1,4 +1,4 @@
-@import url(default.css);
+@import url(../../index.css);
 
 footer {
   background-color: var(--bgc-clr-footer);

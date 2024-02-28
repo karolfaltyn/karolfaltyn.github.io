@@ -1,6 +1,6 @@
-@import url(default.css);
+@import url(../../index.css);
 
-.pagenotfound {
+.page-not-found {
   background-color: var(--bgc-clr-body);
   color: var(--font-clr);
   height: 100vh;

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { Outlet, Link } from "react-router-dom";
-import "../assets/style/navbar.css";
+import "./navbar.css";
 
 export const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -35,8 +35,12 @@ export const Navbar = () => {
               </Link>
             </div>
             <div className="Navbar__options">
-              <Link to="/About" aria-label="About">About</Link>
-              <Link to="/CV" aria-label="CV">CV</Link>
+              <Link to="/About" aria-label="About">
+                About
+              </Link>
+              <Link to="/CV" aria-label="CV">
+                CV
+              </Link>
             </div>
           </div>
         </div>
