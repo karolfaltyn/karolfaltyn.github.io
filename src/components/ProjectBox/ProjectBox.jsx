@@ -1,13 +1,8 @@
 import "./project-box.css";
 
-export const ProjectBox = ({
-  link,
-  name,
-  desc,
-  tech_used,
-  link_code,
-  link_live,
-}) => {
+export const ProjectBox = ({ data }) => {
+  const { link, name, desc, tech_used, link_code, link_live } = data;
+
   let code_icon =
     require("../../assets/images/other-icons/code-icon.svg").default;
   let link_icon =

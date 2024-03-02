@@ -30,8 +30,8 @@
 }
 
 .MyData__title a {
-  font-family: var(--ff-regular);
-  font-size: var(--fs-large-paragraph);
+  font-family: var(--ff-light);
+  font-size: var(--fs-nav-logo);
   text-decoration: none;
   color: var(--font-clr);
 }
@@ -44,8 +44,19 @@
 .MyData__download {
   margin-top: 1rem;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   margin-bottom: 5rem;
+}
+
+.MyData__download a {
+  padding: 0.5rem 1.5rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.MyData__download a:hover {
+  transition: all 0.2s ease-in-out;
+  opacity: 65%;
 }
 
 .MyData__name-contacts {

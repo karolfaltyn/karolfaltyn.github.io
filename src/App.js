@@ -1,6 +1,6 @@
 import React from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
-import { ScrollToTop } from "./utils/ScrollToTop";
+import { ScrollToTop } from "./components/ScrollToTop";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { CV } from "./pages/CV";

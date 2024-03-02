@@ -12,10 +12,10 @@ export const MyData = () => {
             <h2>DOWNLOAD</h2>
             <div className="MyData__download">
               <a href={CV_Karol_Faltyn_ENG} target="_blank" rel="noreferrer">
-                ENGLISH
+                English
               </a>
               <a href={CV_Karol_Faltyn_PL} target="_blank" rel="noreferrer">
-                POLISH
+                Polish
               </a>
             </div>
           </div>
