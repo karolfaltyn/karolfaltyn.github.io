@@ -1,24 +1,21 @@
-import React, { useState } from "react";
+import React from "react";
+import Slider from "react-slick";
 import "./projects.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { ProjectBox } from "../../components/ProjectBox/ProjectBox";
-import { componentsData } from "../../utils/projects";
+import { projectData } from "../../utils/projects";
 
 export const Projects = () => {
   let projects =
     require("../../assets/images/svg-on-pages/projects.svg").default;
 
-  const [currentComponentIndex, setCurrentComponentIndex] = useState(0);
-
-  const handleNextClick = () => {
-    setCurrentComponentIndex(
-      (prevIndex) => (prevIndex + 1) % componentsData.length
-    );
-  };
-
-  const handlePrevClick = () => {
-    setCurrentComponentIndex((prevIndex) =>
-      prevIndex === 0 ? componentsData.length - 1 : prevIndex - 1
-    );
+  let settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
   };
 
   return (
@@ -31,24 +28,15 @@ export const Projects = () => {
               <h2>PORTFOLIO</h2>
               <p>Here are part of my projects</p>
             </div>
-
-            <div className="Projects__buttons">
-              <button
-                className="Projects__button-previous"
-                onClick={handlePrevClick}
-              >
-                &#11164;
-              </button>
-
-              <button
-                className="Projects__button-next"
-                onClick={handleNextClick}
-              >
-                &#11166;
-              </button>
+            <div className="Projects__slider">
+              <Slider {...settings}>
+                <ProjectBox data={projectData[0]} />
+                <ProjectBox data={projectData[1]} />
+                <ProjectBox data={projectData[2]} />
+                <ProjectBox data={projectData[3]} />
+                <ProjectBox data={projectData[4]} />
+              </Slider>
             </div>
-
-            <ProjectBox data={componentsData[currentComponentIndex]} />
           </div>
         </div>
       </section>

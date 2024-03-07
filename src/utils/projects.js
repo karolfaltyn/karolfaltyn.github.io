@@ -1,4 +1,4 @@
-export const componentsData = [
+export const projectData = [
   {
     link: require("../assets/images/project-images/weather.png"),
     name: "Weather",
