@@ -1,7 +1,7 @@
 import "./hero.css";
 
 export const Hero = () => {
-  let myPic = require("../../assets/images/myPic.png");
+  let myPic = require("../../assets/images/p.png");
 
   const skillsIcons = [
     {
