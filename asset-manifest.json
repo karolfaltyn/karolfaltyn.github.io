@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.33fd0da8.css",
-    "main.js": "/static/js/main.37c7e0ac.js",
+    "main.css": "/static/css/main.9a6bf788.css",
+    "main.js": "/static/js/main.742de135.js",
+    "static/media/p.png": "/static/media/p.fb3ffb28799a4d540845.png",
     "static/media/abstract.png": "/static/media/abstract.771308a68960210a1e15.png",
     "static/media/asteroids.png": "/static/media/asteroids.68e15c80aa02e9f82779.png",
     "static/media/number-analyzer.png": "/static/media/number-analyzer.06cfc62e6b6eaa014d43.png",
     "static/media/to-do-list.png": "/static/media/to-do-list.1f4370f9c36fb20fbe00.png",
-    "static/media/myPic.png": "/static/media/myPic.9e907aefa067a580c977.png",
     "static/media/weather.png": "/static/media/weather.989aa22e45921c305f08.png",
     "static/media/Reasume-Karol-Faltyn.pdf": "/static/media/Reasume-Karol-Faltyn.d8824dd6468022e4726d.pdf",
     "static/media/CV-Karol-Faltyn.pdf": "/static/media/CV-Karol-Faltyn.e40d9d962e3f165fdc59.pdf",
@@ -37,11 +37,11 @@
     "static/media/gmail-icon.svg": "/static/media/gmail-icon.6a9805ed5c7b337e9a5df04b6b7e1bb4.svg",
     "static/media/link-external-icon.svg": "/static/media/link-external-icon.9d2c10dd8145e9580922f4b3b0197eb6.svg",
     "static/media/left-arrow-icon.svg": "/static/media/left-arrow-icon.6dc011b0a3da1ae1d6b6ca0e7369e007.svg",
-    "main.33fd0da8.css.map": "/static/css/main.33fd0da8.css.map",
-    "main.37c7e0ac.js.map": "/static/js/main.37c7e0ac.js.map"
+    "main.9a6bf788.css.map": "/static/css/main.9a6bf788.css.map",
+    "main.742de135.js.map": "/static/js/main.742de135.js.map"
   },
   "entrypoints": [
-    "static/css/main.33fd0da8.css",
-    "static/js/main.37c7e0ac.js"
+    "static/css/main.9a6bf788.css",
+    "static/js/main.742de135.js"
   ]
 }
