@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.917b6f0f.css",
-    "main.js": "/static/js/main.ae39eb5e.js",
+    "main.js": "/static/js/main.f280c949.js",
     "static/media/p.png": "/static/media/p.fb3ffb28799a4d540845.png",
     "static/media/coffeehouse.png": "/static/media/coffeehouse.502e1225529ceb50d95b.png",
     "static/media/abstract.png": "/static/media/abstract.771308a68960210a1e15.png",
@@ -11,8 +11,8 @@
     "static/media/weather.png": "/static/media/weather.989aa22e45921c305f08.png",
     "static/media/MatterTRIAL-Regular.otf": "/static/media/MatterTRIAL-Regular.097090144dbfd5f8d8de.otf",
     "static/media/MatterTRIAL-Light.otf": "/static/media/MatterTRIAL-Light.faa8a8fcf5e2283a18e3.otf",
-    "static/media/CV-Karol-Faltyn.pdf": "/static/media/CV-Karol-Faltyn.8e26a0f5566632c146d3.pdf",
-    "static/media/CV-Faltyn-Karol.pdf": "/static/media/CV-Faltyn-Karol.1ad81d252fe0089643f6.pdf",
+    "static/media/CV-Karol-Faltyn.pdf": "/static/media/CV-Karol-Faltyn.28d362f8deef35ea93c8.pdf",
+    "static/media/CV-Faltyn-Karol.pdf": "/static/media/CV-Faltyn-Karol.0340f4b08e308bbd22d1.pdf",
     "static/media/about-me2.svg": "/static/media/about-me2.b58f5bb1e1dfe12a9738e072333a7bea.svg",
     "static/media/TiemposHeadline-Light.otf": "/static/media/TiemposHeadline-Light.73215c41217b6bf9e8d6.otf",
     "static/media/about-me.svg": "/static/media/about-me.a096fa6608235654d5f64bdd3ff5a3e6.svg",
@@ -39,10 +39,10 @@
     "static/media/link-external-icon.svg": "/static/media/link-external-icon.9d2c10dd8145e9580922f4b3b0197eb6.svg",
     "static/media/left-arrow-icon.svg": "/static/media/left-arrow-icon.6dc011b0a3da1ae1d6b6ca0e7369e007.svg",
     "main.917b6f0f.css.map": "/static/css/main.917b6f0f.css.map",
-    "main.ae39eb5e.js.map": "/static/js/main.ae39eb5e.js.map"
+    "main.f280c949.js.map": "/static/js/main.f280c949.js.map"
   },
   "entrypoints": [
     "static/css/main.917b6f0f.css",
-    "static/js/main.ae39eb5e.js"
+    "static/js/main.f280c949.js"
   ]
 }
