@@ -1,6 +1,6 @@
 import "./my-data.css";
 import CV_Karol_Faltyn_PL from "../../assets/CV-Karol-Faltyn.pdf";
-import CV_Karol_Faltyn_ENG from "../../assets/Reasume-Karol-Faltyn.pdf";
+import CV_Karol_Faltyn_ENG from "../../assets/CV-Faltyn-Karol.pdf";
 
 export const MyData = () => {
   return (

@@ -35,6 +35,7 @@ export const Projects = () => {
                 <ProjectBox data={projectData[2]} />
                 <ProjectBox data={projectData[3]} />
                 <ProjectBox data={projectData[4]} />
+                <ProjectBox data={projectData[5]} />
               </Slider>
             </div>
           </div>

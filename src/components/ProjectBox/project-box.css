@@ -6,7 +6,7 @@
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
-  margin-block-end: 5rem;
+  margin-block-end: 1rem;
   background-color: var(--bgc-clr-box);
   padding: 2rem;
   border-radius: 1rem;
