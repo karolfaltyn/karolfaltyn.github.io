@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.917b6f0f.css",
-    "main.js": "/static/js/main.43a1df11.js",
+    "main.css": "/static/css/main.f0c85726.css",
+    "main.js": "/static/js/main.0196c402.js",
     "static/media/p.png": "/static/media/p.fb3ffb28799a4d540845.png",
-    "static/media/coffeehouse.png": "/static/media/coffeehouse.502e1225529ceb50d95b.png",
+    "static/media/coffeehouse.png": "/static/media/coffeehouse.4c2c03bbeba81004c785.png",
     "static/media/abstract.png": "/static/media/abstract.771308a68960210a1e15.png",
     "static/media/asteroids.png": "/static/media/asteroids.68e15c80aa02e9f82779.png",
     "static/media/number-analyzer.png": "/static/media/number-analyzer.06cfc62e6b6eaa014d43.png",
     "static/media/to-do-list.png": "/static/media/to-do-list.1f4370f9c36fb20fbe00.png",
-    "static/media/weather.png": "/static/media/weather.989aa22e45921c305f08.png",
+    "static/media/weather.png": "/static/media/weather.60db7d56975d411a063f.png",
     "static/media/MatterTRIAL-Regular.otf": "/static/media/MatterTRIAL-Regular.097090144dbfd5f8d8de.otf",
     "static/media/MatterTRIAL-Light.otf": "/static/media/MatterTRIAL-Light.faa8a8fcf5e2283a18e3.otf",
-    "static/media/CV-Karol-Faltyn.pdf": "/static/media/CV-Karol-Faltyn.86447ade6c1c5f6887d2.pdf",
-    "static/media/CV-Faltyn-Karol.pdf": "/static/media/CV-Faltyn-Karol.abcecbe901d3d3071f7a.pdf",
+    "static/media/CV-Faltyn-Karol.pdf": "/static/media/CV-Faltyn-Karol.dccb0392ff4fe064cd7c.pdf",
     "static/media/about-me2.svg": "/static/media/about-me2.b58f5bb1e1dfe12a9738e072333a7bea.svg",
     "static/media/TiemposHeadline-Light.otf": "/static/media/TiemposHeadline-Light.73215c41217b6bf9e8d6.otf",
     "static/media/about-me.svg": "/static/media/about-me.a096fa6608235654d5f64bdd3ff5a3e6.svg",
@@ -24,6 +23,7 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "static/media/sass-icon.svg": "/static/media/sass-icon.e3b1cca0a4b239662a22a747fd6b12d7.svg",
+    "static/media/typescript-icon.svg": "/static/media/typescript-icon.0de50fb95b38118ebbaa29cc8d162e62.svg",
     "static/media/javascript-icon.svg": "/static/media/javascript-icon.e2f615406aa5f13c3487e21fbbc81c0e.svg",
     "static/media/github-icon.svg": "/static/media/github-icon.35550d2a73b44687de7658622d6e707c.svg",
     "static/media/git-icon.svg": "/static/media/git-icon.6ed196f78692d6f31ff7e905f7afce0d.svg",
@@ -36,13 +36,14 @@
     "static/media/code-icon.svg": "/static/media/code-icon.514d1aa616358fbec16c6dfb89cc15bb.svg",
     "static/media/envelope-icon.svg": "/static/media/envelope-icon.b08decbe4d00d4f1395410f5701970c8.svg",
     "static/media/gmail-icon.svg": "/static/media/gmail-icon.6a9805ed5c7b337e9a5df04b6b7e1bb4.svg",
+    "static/media/figma-icon.svg": "/static/media/figma-icon.084e8e330869a6f1efd214b5893c044f.svg",
     "static/media/link-external-icon.svg": "/static/media/link-external-icon.9d2c10dd8145e9580922f4b3b0197eb6.svg",
     "static/media/left-arrow-icon.svg": "/static/media/left-arrow-icon.6dc011b0a3da1ae1d6b6ca0e7369e007.svg",
-    "main.917b6f0f.css.map": "/static/css/main.917b6f0f.css.map",
-    "main.43a1df11.js.map": "/static/js/main.43a1df11.js.map"
+    "main.f0c85726.css.map": "/static/css/main.f0c85726.css.map",
+    "main.0196c402.js.map": "/static/js/main.0196c402.js.map"
   },
   "entrypoints": [
-    "static/css/main.917b6f0f.css",
-    "static/js/main.43a1df11.js"
+    "static/css/main.f0c85726.css",
+    "static/js/main.0196c402.js"
   ]
 }
