@@ -36,10 +36,21 @@ export const Hero = () => {
       name: "React",
     },
     {
-      img: require("../../assets/images/tech-icons/git-icon.svg").default,
+      img: require("../../assets/images/tech-icons/typescript-icon.svg")
+        .default,
       id: 7,
+      name: "TypeScript",
+    },
+    {
+      img: require("../../assets/images/tech-icons/git-icon.svg").default,
+      id: 8,
       name: "Git",
     },
+    {
+      img: require("../../assets/images/tech-icons/figma-icon.svg").default,
+      id: 9,
+      name: "Figma",
+    }
   ];
 
   return (
