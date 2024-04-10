@@ -40,7 +40,7 @@ export const MyData = () => {
                     • Utilized frontend frameworks for efficient application
                     development and the seamless integration of UI components.
                     <br />• Creating design in Figma and translating it into
-                    code using React, TypeScript, and Styled Components.
+                    code using React, TypeScript and Styled Components.
                     <br />• Contributing to strategic technology decisions by
                     providing valuable insights and recommendations, aiding in
                     the selection of optimal technologies for project
