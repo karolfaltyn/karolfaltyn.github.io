@@ -20,7 +20,7 @@ export const ProjectBox = ({ data }) => {
             {desc}
             <br />
             <br />
-            Tech used: {tech_used}
+            Build with: {tech_used}
           </p>
         </div>
         <div className="Projects__live-code">

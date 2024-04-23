@@ -3,7 +3,7 @@ export const projectData = [
     link: require("../assets/images/project-images/coffeehouse.png"),
     name: "Coffeehouse",
     desc: "A coffee website with a shopping cart feature allows users to add and delete items, adjust quantities and store data using session storage.",
-    tech_used: "HTML, Tailwind, JavaScript, React",
+    tech_used: "HTML, Tailwind, JavaScript, React, PostCSS",
     link_code: "https://github.com/karolfaltyn/coffeehouse/",
     link_live: "https://karolfaltyn.github.io/coffeehouse/",
   },
@@ -11,7 +11,8 @@ export const projectData = [
     link: require("../assets/images/project-images/weather.png"),
     name: "Weather",
     desc: "The application utilizes geolocation or alternatively allows users to manually input a location to retrieve and display current weather data conditions from the OpenWeatherMap API.",
-    tech_used: "HTML, Tailwind, JavaScript, React",
+    tech_used:
+      "HTML, Tailwind, JavaScript, React, PostCSS, Material UI Library",
     link_code: "https://github.com/karolfaltyn/weather/",
     link_live: "https://karolfaltyn.github.io/weather/",
   },
