@@ -37,6 +37,7 @@ export const MyData = () => {
                   <h3>WMS-DEV - Frontend Developer</h3>
                   <p className="MyData__date">November 2023 - Present</p>
                   <p>
+                    • Science club activity. <br />
                     • Utilized frontend frameworks for efficient application
                     development and the seamless integration of UI components.
                     <br />• Creating design in Figma and translating it into
@@ -78,8 +79,7 @@ export const MyData = () => {
                 <div className="MyData__box">
                   <h3>IT Specialist</h3>
                   <p className="MyData__date">
-                    2019 - 2023 -{" "}
-                    Zespół Szkół i Placówek Oświatowych, Nysa
+                    2019 - 2023 - Zespół Szkół i Placówek Oświatowych, Nysa
                   </p>
                   <p> </p>
                   <p>
