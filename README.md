@@ -6,12 +6,14 @@ Welcome to my personal website! This site serves as a portfolio and a glimpse in
 
 ## Contact
 
--   **Email:** karolfaltyn03@gmail.com
--   **LinkedIn:** www.linkedin.com/in/karolfaltyn
+- **Email:** karolfaltyn03@gmail.com
+- **LinkedIn:** www.linkedin.com/in/karolfaltyn
 
 ## Getting Started
 
 To view the website online, visit [https://karolfaltyn.github.io](https://karolfaltyn.github.io).
+
+### Installation
 
 To run the project locally, follow these steps:
 
@@ -26,13 +28,13 @@ To run the project locally, follow these steps:
    ```bash
    cd karolfaltyn.github.io
    ```
-   
+
 3. Install dependencies:
 
    ```bash
    npm install
    ```
-   
+
 4. Start the development server:
 
    ```bash
