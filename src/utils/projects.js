@@ -18,7 +18,7 @@ export const projectData = [
   {
     link: require("../assets/images/project-images/weather.png"),
     name: "Weather",
-    desc: "The application utilizes geolocation or alternatively allows users to manually input a location to retrieve and display current weather data conditions from the OpenWeatherMap API.",
+    desc: "An application that utilizes an API to display weather data. It can use geographical location or any specified location to show real-time weather information and forecasts. The app uses the OpenWeatherMap API to fetch weather data. ",
     tech_used:
       "HTML, Tailwind CSS, JavaScript, React, PostCSS, Material UI Library",
     link_code: "https://github.com/karolfaltyn/weather/",
