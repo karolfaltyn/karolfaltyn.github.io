@@ -22,7 +22,7 @@ export const Hero = () => {
     {
       img: require("../../assets/images/tech-icons/tailwind-icon.svg").default,
       id: 4,
-      name: "Tailwind",
+      name: "Tailwind CSS",
     },
     {
       img: require("../../assets/images/tech-icons/javascript-icon.svg")
@@ -40,16 +40,6 @@ export const Hero = () => {
         .default,
       id: 7,
       name: "TypeScript",
-    },
-    {
-      img: require("../../assets/images/tech-icons/git-icon.svg").default,
-      id: 8,
-      name: "Git",
-    },
-    {
-      img: require("../../assets/images/tech-icons/figma-icon.svg").default,
-      id: 9,
-      name: "Figma",
     }
   ];
 
