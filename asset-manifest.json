@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.fdd9d907.css",
-    "main.js": "/static/js/main.4a74f5b9.js",
+    "main.css": "/static/css/main.9780c7d4.css",
+    "main.js": "/static/js/main.5e9e4724.js",
     "static/media/p.png": "/static/media/p.fb3ffb28799a4d540845.png",
     "static/media/solar-sense.png": "/static/media/solar-sense.85b9a9535527ba8d87be.png",
     "static/media/coffeehouse.png": "/static/media/coffeehouse.8784c4996efd5185f334.png",
-    "static/media/CV-Faltyn-Karol.pdf": "/static/media/CV-Faltyn-Karol.8aa9d5ad8afc11a7437f.pdf",
     "static/media/abstract.png": "/static/media/abstract.771308a68960210a1e15.png",
     "static/media/weather.png": "/static/media/weather.17a97a8907e427208084.png",
     "static/media/zen.png": "/static/media/zen.16326bdc8fc5132f213d.png",
+    "static/media/CV-Faltyn-Karol.pdf": "/static/media/CV-Faltyn-Karol.5bfa4092fa57e2c5bff6.pdf",
     "static/media/MatterTRIAL-Regular.otf": "/static/media/MatterTRIAL-Regular.097090144dbfd5f8d8de.otf",
     "static/media/MatterTRIAL-Light.otf": "/static/media/MatterTRIAL-Light.faa8a8fcf5e2283a18e3.otf",
     "static/media/about-me2.svg": "/static/media/about-me2.b58f5bb1e1dfe12a9738e072333a7bea.svg",
@@ -36,11 +36,11 @@
     "static/media/gmail-icon.svg": "/static/media/gmail-icon.6a9805ed5c7b337e9a5df04b6b7e1bb4.svg",
     "static/media/link-external-icon.svg": "/static/media/link-external-icon.9d2c10dd8145e9580922f4b3b0197eb6.svg",
     "static/media/left-arrow-icon.svg": "/static/media/left-arrow-icon.6dc011b0a3da1ae1d6b6ca0e7369e007.svg",
-    "main.fdd9d907.css.map": "/static/css/main.fdd9d907.css.map",
-    "main.4a74f5b9.js.map": "/static/js/main.4a74f5b9.js.map"
+    "main.9780c7d4.css.map": "/static/css/main.9780c7d4.css.map",
+    "main.5e9e4724.js.map": "/static/js/main.5e9e4724.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdd9d907.css",
-    "static/js/main.4a74f5b9.js"
+    "static/css/main.9780c7d4.css",
+    "static/js/main.5e9e4724.js"
   ]
 }
