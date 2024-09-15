@@ -19,13 +19,27 @@ export const MyData = () => {
               <h1>Karol Faltyn</h1>
               <ul>
                 <li className="MyData__contact-option">
-                  karolfaltyn.github.io
+                  <a
+                    href="https://github.com/karolfaltyn"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    karolfaltyn.github.io
+                  </a>
                 </li>
                 <li className="MyData__contact-option">
-                  karolfaltyn03@gmail.com
+                  <a href="mailto:karolfaltyn03@gmail.com" aria-label="gmail">
+                    karolfaltyn03@gmail.com
+                  </a>
                 </li>
                 <li className="MyData__contact-option">
-                  linkedin.com/in/karolfaltyn
+                  <a
+                    href="https://www.linkedin.com/in/karolfaltyn/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    linkedin.com/in/karolfaltyn
+                  </a>
                 </li>
               </ul>
             </div>
@@ -34,40 +48,58 @@ export const MyData = () => {
               <h2>EXPERIENCE</h2>
               <div className="MyData__experience">
                 <div className="MyData__box">
-                  <h3>WMS-DEV - Frontend Developer</h3>
+                  <h3>Data Entry - Acturis Poland, Wrocław</h3>
+                  <p className="MyData__date">July 2024 - Present</p>
+                  <p>
+                    • Administering and updating insurance policies, conducting
+                    detailed data analysis to ensure accuracy and compliance
+                    with industry standards.
+                    <br />• Collaborating with a UK-based team to resolve
+                    insurance policy issues while managing and safeguarding
+                    sensitive data in compliance with privacy regulations.
+                    <br />• Analyzing insurance policy data to enhance project
+                    relevance and functionality.
+                  </p>
+                </div>
+                <div className="MyData__box">
+                  <h3>
+                    Frontend Developer - WMS-DEV - Scientific Circle, Wrocław
+                  </h3>
                   <p className="MyData__date">November 2023 - Present</p>
                   <p>
-                    • Science club activity. <br />
-                    • Utilized frontend frameworks for efficient application
-                    development and the seamless integration of UI components.
-                    <br />• Creating design in Figma and translating it into
-                    code using React, TypeScript and Styled Components.
-                    <br />• Contributing to strategic technology decisions by
-                    providing valuable insights and recommendations, aiding in
-                    the selection of optimal technologies for project
-                    development and implementation.
+                    • Designing and prototyping in Figma, translating designs
+                    into functional interfaces using React, TypeScript, and
+                    Styled Components.
+                    <br />
+                    • Using JetBrains Space to manage tasks effectively,
+                    facilitating collaboration and streamlining project tracking
+                    within the team.
+                    <br />• Providing strategic insights on technology choices,
+                    assisting the team in selecting optimal tools and frameworks
+                    for ongoing project development and implementation.
                   </p>
                 </div>
                 <div className="MyData__box">
-                  <h3>2M Marek Workiewicz - Internship</h3>
+                  <h3>Internship - 2M Marek Workiewicz, Nysa</h3>
                   <p className="MyData__date">February 2022 - March 2022</p>
                   <p>
-                    • Coding using HTML, CSS and JavaScript to develop features
-                    for both mobile and desktop platforms.
-                    <br />• Implementing SEO requirements for websites.
+                    • Developed features for both mobile and desktop platforms
+                    using HTML, CSS and JavaScript.
+                    <br />• Applied SEO best practices to boost website
+                    visibility and performance.
                   </p>
                 </div>
                 <div className="MyData__box">
-                  <h3>2M Marek Workiewicz - Internship</h3>
+                  <h3>Internship - 2M Marek Workiewicz, Nysa</h3>
                   <p className="MyData__date">June 2021</p>
                   <p>
-                    • Website development for cross-browser integration and
+                    • Developed websites ensuring cross-browser integration and
                     compatibility.
                     <br />
-                    • Comprehensive troubleshooting of hardware and software
-                    issues.
-                    <br />• Installation and configuration of drivers and
-                    software.
+                    • Performed comprehensive troubleshooting for hardware and
+                    software issues.
+                    <br />• Conducted installation and configuration of programs
+                    and drivers.
                   </p>
                 </div>
               </div>
@@ -81,7 +113,6 @@ export const MyData = () => {
                   <p className="MyData__date">
                     2019 - 2023 - Zespół Szkół i Placówek Oświatowych, Nysa
                   </p>
-                  <p> </p>
                   <p>
                     Relevant courses: System Administration, Database
                     Management, Networking Fundamentals, Operating Systems,
@@ -98,9 +129,15 @@ export const MyData = () => {
                 <div className="MyData__box">
                   <h3>Technologies</h3>
                   <p>
-                    HTML, CSS, Sass/SCSS, Tailwind, JavaScript, React,
-                    TypeScript, Git, Figma
+                    HTML, CSS, Sass/SCSS, Tailwind CSS, JavaScript, React,
+                    TypeScript
                   </p>
+                  <br />
+                  <h3>Familiar</h3>
+                  <p>Python, C++, SQL</p>
+                  <br />
+                  <h3>Other</h3>
+                  <p>Git, Docker, Figma, Linux</p>
                 </div>
               </div>
             </div>

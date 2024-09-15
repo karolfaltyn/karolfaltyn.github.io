@@ -76,6 +76,15 @@
   font-family: var(--ff-light);
 }
 
+.MyData__contact-option a{
+  text-decoration: none;
+  color: var(--font-clr);
+}
+.MyData__contact-option a:hover{
+  transition: all 0.2s ease-in-out;
+  color: var(--font-clr-alt2);
+}
+
 .MyData__cv-section {
   display: flex;
   justify-content: space-between;
