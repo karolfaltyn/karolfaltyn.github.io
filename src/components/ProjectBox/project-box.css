@@ -38,6 +38,10 @@
   font-size: var(--fs-paragraph);
 }
 
+.Projects__desc span {
+  font-style: italic;
+}
+
 .Projects__live-code {
   margin-top: 2rem;
   display: flex;
