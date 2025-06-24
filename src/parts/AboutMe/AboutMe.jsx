@@ -20,9 +20,6 @@ export const AboutMe = () => {
                 <p>
                   My passion is to create web application for global reach and
                   accessibility.
-                  <br />
-                  <br />
-                  My main stack currently is React.
                 </p>
               </div>
               <div className="About__img-side">

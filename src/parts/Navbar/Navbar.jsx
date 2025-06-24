@@ -36,11 +36,9 @@ export const Navbar = () => {
             </div>
             <div className="Navbar__options">
               <Link to="/About" aria-label="About">
-                About
+                About Me
               </Link>
-              <Link to="/CV" aria-label="CV">
-                CV
-              </Link>
+              |
             </div>
           </div>
         </div>
