@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.9780c7d4.css",
-    "main.js": "/static/js/main.5e9e4724.js",
+    "main.css": "/static/css/main.01737b10.css",
+    "main.js": "/static/js/main.6dfa1639.js",
     "static/media/p.png": "/static/media/p.fb3ffb28799a4d540845.png",
     "static/media/solar-sense.png": "/static/media/solar-sense.85b9a9535527ba8d87be.png",
+    "static/media/polwrater.png": "/static/media/polwrater.a040e929b20e4bed6018.png",
     "static/media/coffeehouse.png": "/static/media/coffeehouse.8784c4996efd5185f334.png",
-    "static/media/abstract.png": "/static/media/abstract.771308a68960210a1e15.png",
+    "static/media/zen.png": "/static/media/zen.371ca2a2a9cd47a64bda.png",
     "static/media/weather.png": "/static/media/weather.17a97a8907e427208084.png",
-    "static/media/zen.png": "/static/media/zen.16326bdc8fc5132f213d.png",
-    "static/media/CV-Faltyn-Karol.pdf": "/static/media/CV-Faltyn-Karol.5bfa4092fa57e2c5bff6.pdf",
     "static/media/MatterTRIAL-Regular.otf": "/static/media/MatterTRIAL-Regular.097090144dbfd5f8d8de.otf",
     "static/media/MatterTRIAL-Light.otf": "/static/media/MatterTRIAL-Light.faa8a8fcf5e2283a18e3.otf",
     "static/media/about-me2.svg": "/static/media/about-me2.b58f5bb1e1dfe12a9738e072333a7bea.svg",
@@ -20,13 +19,18 @@
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/docker-icon.svg": "/static/media/docker-icon.5702b5f82c0873a08d777221444affd4.svg",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "static/media/sass-icon.svg": "/static/media/sass-icon.e3b1cca0a4b239662a22a747fd6b12d7.svg",
+    "static/media/svelte-icon.svg": "/static/media/svelte-icon.0b03a0c3f5cb3ef0561ccc1091b53d15.svg",
+    "static/media/scss-icon.svg": "/static/media/scss-icon.e3b1cca0a4b239662a22a747fd6b12d7.svg",
     "static/media/typescript-icon.svg": "/static/media/typescript-icon.0de50fb95b38118ebbaa29cc8d162e62.svg",
     "static/media/javascript-icon.svg": "/static/media/javascript-icon.e2f615406aa5f13c3487e21fbbc81c0e.svg",
     "index.html": "/index.html",
     "static/media/github-icon.svg": "/static/media/github-icon.35550d2a73b44687de7658622d6e707c.svg",
+    "static/media/figma-icon.svg": "/static/media/figma-icon.fcf0f0fe799d49c9e45e31b6753f4bec.svg",
+    "static/media/git-icon.svg": "/static/media/git-icon.6ed196f78692d6f31ff7e905f7afce0d.svg",
     "static/media/map-icon.svg": "/static/media/map-icon.8eb1fd271c671ed710f595a79d7fe45e.svg",
+    "static/media/vscode-icon.svg": "/static/media/vscode-icon.be55dcce5b47d5c4e4e30ec9401b038e.svg",
     "static/media/tailwind-icon.svg": "/static/media/tailwind-icon.9e622dd9c06c2a3bd905aba7b12879f3.svg",
     "static/media/linkedin-icon.svg": "/static/media/linkedin-icon.3c6337fd94be32158f7ecadeda85b940.svg",
     "static/media/html-icon.svg": "/static/media/html-icon.d3b6906499d8a301ba4899e656f30518.svg",
@@ -36,11 +40,11 @@
     "static/media/gmail-icon.svg": "/static/media/gmail-icon.6a9805ed5c7b337e9a5df04b6b7e1bb4.svg",
     "static/media/link-external-icon.svg": "/static/media/link-external-icon.9d2c10dd8145e9580922f4b3b0197eb6.svg",
     "static/media/left-arrow-icon.svg": "/static/media/left-arrow-icon.6dc011b0a3da1ae1d6b6ca0e7369e007.svg",
-    "main.9780c7d4.css.map": "/static/css/main.9780c7d4.css.map",
-    "main.5e9e4724.js.map": "/static/js/main.5e9e4724.js.map"
+    "main.01737b10.css.map": "/static/css/main.01737b10.css.map",
+    "main.6dfa1639.js.map": "/static/js/main.6dfa1639.js.map"
   },
   "entrypoints": [
-    "static/css/main.9780c7d4.css",
-    "static/js/main.5e9e4724.js"
+    "static/css/main.01737b10.css",
+    "static/js/main.6dfa1639.js"
   ]
 }
