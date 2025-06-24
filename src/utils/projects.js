@@ -44,12 +44,4 @@ export const projectData = [
     link_code: "https://github.com/karolfaltyn/weather/",
     link_live: "https://karolfaltyn.github.io/weather/",
   },
-  {
-    link: require("../assets/images/project-images/abstract.png"),
-    name: "Abstract",
-    desc: "This project is my response to a challenge from the frontend practice website. The goal is to enhance your HTML and CSS skills by building a visually appealing and responsive website.",
-    tech_used: "HTML, CSS",
-    link_code: "https://github.com/karolfaltyn/abstract/",
-    link_live: "https://karolfaltyn.github.io/abstract/",
-  },
 ];
