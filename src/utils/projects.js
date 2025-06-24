@@ -1,5 +1,14 @@
 export const projectData = [
   {
+    link: require("../assets/images/project-images/polwrater.png"),
+    name: "Polwrater - WMS_DEV",
+    desc: "App to simplify and speed up posting opinions on a student forum by bypassing limitations of the original platform. It allows users to post opinions without restrictions, enhancing the overall user experience. The application is built with a focus on performance and usability, ensuring that users can easily navigate and interact with the platform.",
+    tech_used:
+      "React, TypeScript, Vite, ESLint, Styled Components, Motion, RWD, REST API, localForage, PWA, Docker, Figma, GIMP",
+    link_code: "https://github.com/WMS-DEV/polwrater",
+    link_live: "https://polwrater.wmsdev.pl/",
+  },
+  {
     link: require("../assets/images/project-images/solar-sense.png"),
     name: "Solar Sense",
     desc: "The project enables remote real-time monitoring of photovoltaic production via the Solax Cloud API. The responsive application supports Polish and English and includes a demo mode for users without photovoltaic systems. A custom-built proxy server manages CORS headers to ensure secure API communication across browsers.",
@@ -21,7 +30,8 @@ export const projectData = [
     link: require("../assets/images/project-images/coffeehouse.png"),
     name: "Coffeehouse",
     desc: "This coffee website offers a user-friendly shopping cart where customers can add, remove, and adjust items with ease. Session storage ensures that cart data is retained throughout the browsing session, providing a smooth and convenient shopping experience.",
-    tech_used: "React, JavaScript, PostCSS, Tailwind CSS, RWD, Session Storage, PWA",
+    tech_used:
+      "React, JavaScript, PostCSS, Tailwind CSS, RWD, Session Storage, PWA",
     link_code: "https://github.com/karolfaltyn/coffeehouse/",
     link_live: "https://karolfaltyn.github.io/coffeehouse/",
   },
